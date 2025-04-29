@@ -166,3 +166,5 @@ Stacktrace:
 2025-04-28 22:52:41,947 - INFO - Entered text 'This is a test message.' into element: ('xpath', "//textarea[@name='message']")
 2025-04-28 22:52:42,279 - INFO - Entered text 'C:\Users\Dell\Downloads\2149192357.jpg' into element: ('xpath', "//input[@name='upload_file']")
 2025-04-28 22:52:43,686 - INFO - Clicked on element: ('xpath', "//button[@type='submit']")
+2025-04-29 21:41:24,942 - INFO - Clicked on element: ('xpath', "//a[@href='/test_cases']")
+2025-04-29 21:41:25,054 - INFO - Element is visible: ('xpath', "//b[normalize-space()='Test Cases']")
