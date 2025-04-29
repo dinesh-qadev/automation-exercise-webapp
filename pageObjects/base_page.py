@@ -47,6 +47,7 @@ class BasePage:
             element = self.wait.until(EC.visibility_of_element_located(locator))
             visible = element.is_displayed()
             logger.info(f"Element is visible: {locator}")
+            print(visible)
             return visible
         except (TimeoutException, NoSuchElementException) as e:
             logger.error(f"Element not visible: {locator}. Error: {str(e)}")
@@ -58,6 +59,7 @@ class BasePage:
             element = self.wait.until(EC.visibility_of_element_located(locator))
             text = element.text
             logger.info(f"Got text from element {locator}: '{text}'")
+            print(text)
             return text
         except (TimeoutException, NoSuchElementException) as e:
             logger.error(f"Failed to get text from element: {locator}. Error: {str(e)}")

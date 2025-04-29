@@ -9,6 +9,7 @@ class HomePage(BasePage):
     SIGNUP_LOGIN_BUTTON = (By.XPATH, "//a[@href='/login']")
     CONTACT_US_BUTTON = (By.XPATH, "//a[@href='/contact_us']")  # Locator for the 'Contact Us' button
     TEST_CASES_BUTTON = (By.XPATH, "//a[@href='/test_cases']")
+    PRODUCTS_BUTTON = (By.XPATH, "//a[@href='/products']")
 
     def __init__(self, driver):
         #self.driver = driver
@@ -45,3 +46,7 @@ class HomePage(BasePage):
     # Cliks on Test Cases menu option
     def click_test_cases(self):
         self.click(self.TEST_CASES_BUTTON)
+
+    #Click on product menu
+    def click_products(self):
+        self.click(self.PRODUCTS_BUTTON)

@@ -6,7 +6,7 @@ class TestCasesPage(BasePage):
     TEST_CASES_HEADER = (By.XPATH, "//b[normalize-space()='Test Cases']")
 
     def __init__(self, driver):
-        self.driver = driver
+        super().__init__(driver)
 
     def is_test_cases_page_displayed(self):
         return self.is_visible(self.TEST_CASES_HEADER)
