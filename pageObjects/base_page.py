@@ -100,6 +100,7 @@ class BasePage:
                 text = el.text.strip()
                 if text:  # Check if the text is not empty
                     texts.append(text)
+            #print(text)
             return texts
         except (TimeoutException, NoSuchElementException) as e:
             logger.error(f"Failed to get texts from elements: {locator}. Error: {str(e)}")

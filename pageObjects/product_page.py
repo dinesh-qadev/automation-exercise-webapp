@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from .base_page import BasePage
+import re
 
 
 class ProductsPage(BasePage):
@@ -38,10 +39,22 @@ class ProductsPage(BasePage):
 
     def are_search_results_visible(self, expected_keyword):
         # This will return a list of texts from all result items
+
+        #print("Verifying Searched item list")
         items = self.get_elements_text_list(self.SEARCH_RESULT_ITEMS)
+        #print(len(items))
+        expected_clean = self.clean_text(expected_keyword)
         #return all(expected_keyword.lower() in item.text.lower() for item in items if item.text.strip())
         # Check if expected_keyword is found in all search result texts
         for product_text in items:
-            if expected_keyword.lower() not in product_text.lower():
+            #print(product_text)
+            product_clean = self.clean_text(product_text)
+            #print(product_clean)
+            if expected_clean not in product_clean:
                 return False  # Mismatch found
         return True  # all items matched
+
+    #Regular expression to convert unformated text
+    @staticmethod
+    def clean_text(text):
+        return re.sub(r'[^a-z]', '', text.lower())
