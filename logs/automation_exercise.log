@@ -136,3 +136,133 @@
 2025-04-30 23:00:46,489 - INFO - Clicked on element: ('id', 'submit_search')
 2025-04-30 23:00:46,538 - INFO - Element is visible: ('xpath', "//h2[text()='Searched Products']")
 2025-04-30 23:00:46,538 - INFO - Element is visible: ('xpath', "//h2[text()='Searched Products']")
+2025-05-01 22:34:09,506 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 22:34:09,506 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 22:34:12,762 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 22:34:12,762 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 22:34:12,928 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 22:34:12,928 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 22:34:22,969 - ERROR - Element not visible: ('xpath', "//div[@class='alert-success' and contains(text(),'You have been successfully subscribed!')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011CFBD3+61635]
+	GetHandleVerifier [0x011CFC14+61700]
+	(No symbol) [0x00FF05D3]
+	(No symbol) [0x0103899E]
+	(No symbol) [0x01038D3B]
+	(No symbol) [0x01080E12]
+	(No symbol) [0x0105D2E4]
+	(No symbol) [0x0107E61B]
+	(No symbol) [0x0105D096]
+	(No symbol) [0x0102C840]
+	(No symbol) [0x0102D6A4]
+	GetHandleVerifier [0x01417043+2450739]
+	GetHandleVerifier [0x014127C6+2432182]
+	GetHandleVerifier [0x0142D50E+2542078]
+	GetHandleVerifier [0x011E6895+155013]
+	GetHandleVerifier [0x011ECF7D+181357]
+	GetHandleVerifier [0x011D7428+92440]
+	GetHandleVerifier [0x011D75D0+92864]
+	GetHandleVerifier [0x011C1FC0+5296]
+	BaseThreadInitThunk [0x7580FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775082AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7750827E+238]
+
+2025-05-01 22:34:22,969 - ERROR - Element not visible: ('xpath', "//div[@class='alert-success' and contains(text(),'You have been successfully subscribed!')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011CFBD3+61635]
+	GetHandleVerifier [0x011CFC14+61700]
+	(No symbol) [0x00FF05D3]
+	(No symbol) [0x0103899E]
+	(No symbol) [0x01038D3B]
+	(No symbol) [0x01080E12]
+	(No symbol) [0x0105D2E4]
+	(No symbol) [0x0107E61B]
+	(No symbol) [0x0105D096]
+	(No symbol) [0x0102C840]
+	(No symbol) [0x0102D6A4]
+	GetHandleVerifier [0x01417043+2450739]
+	GetHandleVerifier [0x014127C6+2432182]
+	GetHandleVerifier [0x0142D50E+2542078]
+	GetHandleVerifier [0x011E6895+155013]
+	GetHandleVerifier [0x011ECF7D+181357]
+	GetHandleVerifier [0x011D7428+92440]
+	GetHandleVerifier [0x011D75D0+92864]
+	GetHandleVerifier [0x011C1FC0+5296]
+	BaseThreadInitThunk [0x7580FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775082AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7750827E+238]
+
+2025-05-01 23:07:20,618 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:07:20,618 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:07:20,847 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:07:20,847 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:07:21,151 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:07:21,151 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:09:52,774 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:09:52,774 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:09:53,012 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:09:53,012 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:09:53,167 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:09:53,167 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:20:58,659 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:20:58,659 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:20:59,156 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:20:59,156 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:20:59,281 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:20:59,281 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:22:10,922 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:22:10,922 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:22:11,135 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:22:11,135 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:22:11,283 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:22:11,283 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:28:08,453 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:28:08,453 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:28:08,670 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:28:08,670 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:28:08,797 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:28:08,797 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:39:48,052 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:39:48,052 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:39:48,256 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:39:48,256 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:39:48,553 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:39:48,553 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:52:11,999 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:52:11,999 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:52:12,240 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:52:12,240 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:52:12,418 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:52:12,418 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:52:12,532 - INFO - Element is visible: ('xpath', "//div[@id='success-subscribe']//div[contains(text(), 'successfully subscribed')]")
+2025-05-01 23:52:12,532 - INFO - Element is visible: ('xpath', "//div[@id='success-subscribe']//div[contains(text(), 'successfully subscribed')]")
+2025-05-01 23:54:51,270 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:54:51,270 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:54:51,480 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:54:51,480 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:54:51,630 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:54:51,630 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:55:45,523 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:55:45,523 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:55:45,727 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:55:45,727 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:55:45,845 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:55:45,845 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:57:46,145 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:57:46,145 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:57:46,366 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:57:46,366 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:57:46,530 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:57:46,530 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:59:04,005 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:59:04,005 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:59:04,223 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:59:04,223 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:59:04,514 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:59:04,514 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:59:41,166 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:59:41,166 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+2025-05-01 23:59:41,373 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:59:41,373 - INFO - Entered text 'testemail@example.com' into element: ('id', 'susbscribe_email')
+2025-05-01 23:59:41,522 - INFO - Clicked on element: ('id', 'subscribe')
+2025-05-01 23:59:41,522 - INFO - Clicked on element: ('id', 'subscribe')
