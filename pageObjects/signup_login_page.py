@@ -40,6 +40,9 @@ class SignupLoginPage(BasePage):
     LOGGED_IN_TEXT = (By.XPATH, "//a[contains(text(), 'Logged in as')]")
     LOGOUT_BUTTON = (By.XPATH, "//a[@href='/logout']")
 
+    #Locatior for "email already exist" validation
+    EMAIL_EXISTS_ERROR = (By.XPATH, "//p[text()='Email Address already exist!']")
+
     def is_new_user_signup_visible(self):
         return self.is_visible(self.NEW_USER_SIGNUP)
 
@@ -91,3 +94,8 @@ class SignupLoginPage(BasePage):
 
     def click_logout(self):
         self.click(self.LOGOUT_BUTTON)
+
+    ''' Method for "Email already exist" validation text'''
+
+    def is_email_exists_error_visible(self):
+        return self.is_visible(self.EMAIL_EXISTS_ERROR)
