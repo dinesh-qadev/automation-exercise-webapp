@@ -12,8 +12,9 @@ class HomePage(BasePage):
     CONTACT_US_BUTTON = (By.XPATH, "//a[@href='/contact_us']")  # Locator for the 'Contact Us' button
     TEST_CASES_BUTTON = (By.XPATH, "//a[@href='/test_cases']")
     PRODUCTS_BUTTON = (By.XPATH, "//a[@href='/products']")
+    CART_BUTTON = (By.XPATH, "//a[@href='/view_cart']")
 
-    #Locators for testcase subscription in home page
+    #Locators for subscription in home page
     SUBSCRIPTION_TEXT = (By.XPATH, "//h2[normalize-space()='Subscription']")
     EMAIL_INPUT = (By.ID, "susbscribe_email")
     SUBMIT_BUTTON = (By.ID, "subscribe")
@@ -51,28 +52,32 @@ class HomePage(BasePage):
         """Click on the 'Contact Us' button to navigate to the contact us page"""
         self.click(self.CONTACT_US_BUTTON)
 
-    # Cliks on Test Cases menu option
     def click_test_cases(self):
+        """Clicks on the 'TestCases' button"""
         self.click(self.TEST_CASES_BUTTON)
 
-    #Click on product menu
     def click_products(self):
+        """Clicks on the 'Product' button"""
         self.click(self.PRODUCTS_BUTTON)
 
-    #Pageobject Methods for Subscription verification in Homepage
+    #Pageobject Methods for Subscription verification in Home/Cart Page
     def scroll_to_footer(self):
+        """Scrolls to bottom of the page"""
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
     def is_subscription_text_visible(self):
+        """Check visibility of Subscription text"""
         return self.is_visible(self.SUBSCRIPTION_TEXT)
 
     def subscribe_with_email(self, email):
+        """enter email address and clicks to submit"""
         self.enter_text(self.EMAIL_INPUT, email)
         self.click(self.SUBMIT_BUTTON)
         # with open("page_source.html", "w", encoding="utf-8") as f:
         #     f.write(self.driver.page_source) #This is written to find out alert text from DOM
 
     def get_success_message_text(self, timeout=5):
+        """When subscribed, captures a successful text"""
         try:
             element = WebDriverWait(self.driver, timeout).until(
                 EC.presence_of_element_located(self.SUCCESS_MESSAGE)
@@ -81,5 +86,9 @@ class HomePage(BasePage):
             return element.text.strip()
         except Exception as e:
             return e
+
+    def click_cart_button(self):
+        """Clicks on the 'Cart' button"""
+        self.click(self.CART_BUTTON)
 
 

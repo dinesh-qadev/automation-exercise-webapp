@@ -1,5 +1,4 @@
 # tests/test_subscription_home.py
-import pytest
 from pageObjects.home_page import HomePage
 
 

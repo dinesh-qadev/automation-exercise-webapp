@@ -30,13 +30,15 @@ class SignupLoginPage(BasePage):
     MOBILE_NUMBER = (By.ID, "mobile_number")
     CREATE_ACCOUNT_BUTTON = (By.XPATH, "//button[@data-qa='create-account']")
 
-
     # Locators for Login
     LOGIN_HEADER = (By.XPATH, "//h2[text()='Login to your account']")
     LOGIN_EMAIL_INPUT = (By.XPATH, "//input[@data-qa='login-email']")
     LOGIN_PASSWORD_INPUT = (By.XPATH, "//input[@data-qa='login-password']")
     LOGIN_BUTTON = (By.XPATH, "//button[@data-qa='login-button']")
 
+    #Locators for Logout
+    LOGGED_IN_TEXT = (By.XPATH, "//a[contains(text(), 'Logged in as')]")
+    LOGOUT_BUTTON = (By.XPATH, "//a[@href='/logout']")
 
     def is_new_user_signup_visible(self):
         return self.is_visible(self.NEW_USER_SIGNUP)
@@ -81,3 +83,11 @@ class SignupLoginPage(BasePage):
         self.enter_text(self.LOGIN_EMAIL_INPUT, email)
         self.enter_text(self.LOGIN_PASSWORD_INPUT, password)
         self.click(self.LOGIN_BUTTON)
+
+    ''' Methods for Testcase_004'''
+    def is_logged_in_as_user(self, username):
+        """Checks if 'Logged in as username' is visible"""
+        return self.is_text_present_in_element(self.LOGGED_IN_TEXT, username)
+
+    def click_logout(self):
+        self.click(self.LOGOUT_BUTTON)
