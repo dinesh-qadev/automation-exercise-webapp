@@ -1,0 +1,28 @@
+{
+  "valid_user": {
+    "email": "testuser@example.com",
+    "password": "TestPass123"
+  },
+  "invalid_user": {
+    "email": "invalid@example.com",
+    "password": "wrongpass"
+  },
+  "account_info": {
+    "password": "Test1234",
+    "day": "1",
+    "month": "January",
+    "year": "2000"
+  },
+  "address_info": {
+    "firstname": "Test",
+    "lastname": "User",
+    "company": "TestCompany",
+    "address1": "123 Street",
+    "address2": "Suite 456",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "zipcode": "M5V2T6",
+    "mobile": "1234567890"
+  }
+}

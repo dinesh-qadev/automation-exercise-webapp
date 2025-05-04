@@ -1,4 +1,3 @@
-import pytest
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from pageObjects.account_page  import AccountPage

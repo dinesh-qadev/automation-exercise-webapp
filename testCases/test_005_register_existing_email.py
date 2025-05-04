@@ -20,3 +20,6 @@ def test_register_user_with_existing_email(browser):
 
     # Step 8: Verify error 'Email Address already exist!' is visible
     assert login_page.is_email_exists_error_visible(), "'Email Address already exist!' error not displayed"
+
+
+
