@@ -3,6 +3,8 @@ import random
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from pageObjects.account_page import AccountPage
+from utilities.data_generator import generate_random_email
+from utilities.data_loader import load_test_data
 
 
 def test_register_user(browser):
@@ -20,27 +22,38 @@ def test_register_user(browser):
     assert signup_login_page.is_new_user_signup_visible(), "'New User Signup!' is not visible"
 
     # Step 6-7
-    random_email = f"user{random.randint(1000,9999)}@test.com"
+    #random_email = f"user{random.randint(1000,9999)}@test.com"
+    random_email = generate_random_email()
     signup_login_page.signup(name="TestUser", email=random_email)
 
     # Step 8
     assert signup_login_page.is_enter_account_info_visible(), "'ENTER ACCOUNT INFORMATION' is not visible"
 
     # Step 9-11
-    signup_login_page.fill_account_info(password="Test1234", day="1", month="January", year="2000")
+    #Load data from json fie
+    user_data = load_test_data("users.json")
+    account_info = user_data["account_info"]
+
+    signup_login_page.fill_account_info(
+        password=account_info["password"],
+        day=account_info["day"],
+        month=account_info["month"],
+        year=account_info["year"]
+    )
 
     # Step 12
+    address_info = user_data["address_info"]
     signup_login_page.fill_address_info(
-        firstname="Test",
-        lastname="User",
-        company="TestCompany",
-        address1="123 Street",
-        address2="Suite 456",
-        country="Canada",
-        state="Ontario",
-        city="Toronto",
-        zipcode="M5V2T6",
-        mobile="1234567890"
+        firstname=address_info["firstname"],
+        lastname=address_info["lastname"],
+        company=address_info["company"],
+        address1=address_info["address1"],
+        address2=address_info["address2"],
+        country=address_info["country"],
+        state=address_info["state"],
+        city=address_info["city"],
+        zipcode=address_info["zipcode"],
+        mobile=address_info["mobile"]
     )
 
     # Step 13

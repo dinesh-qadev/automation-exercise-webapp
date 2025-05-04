@@ -1,7 +1,8 @@
 {
   "valid_user": {
-    "email": "testuser@example.com",
-    "password": "TestPass123"
+    "email": "djoc301@gmail.com",
+    "password": "1234",
+    "name": "Dinesh"
   },
   "invalid_user": {
     "email": "invalid@example.com",

@@ -1,5 +1,6 @@
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
+from utilities.data_loader import load_test_data
 
 
 def test_register_user_with_existing_email(browser):
@@ -16,7 +17,12 @@ def test_register_user_with_existing_email(browser):
     assert login_page.is_new_user_signup_visible(), "'New User Signup!' is not visible"
 
     # Step 6 and 7: Enter name and already registered email address and clicks on Signup button
-    login_page.signup("Dinesh", "djoc301@gmail.com")
+    user_info = load_test_data("users.json")
+    correct_credential = user_info["valid_user"]
+    login_page.signup(
+        name=correct_credential["name"],
+        email=correct_credential["email"]
+    )
 
     # Step 8: Verify error 'Email Address already exist!' is visible
     assert login_page.is_email_exists_error_visible(), "'Email Address already exist!' error not displayed"

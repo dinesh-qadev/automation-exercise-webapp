@@ -1,5 +1,6 @@
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
+from utilities.data_loader import load_test_data
 
 
 def test_logout_user(browser):
@@ -16,10 +17,16 @@ def test_logout_user(browser):
     assert login.is_login_header_visible(), "'Login to your account' is not visible"
 
     # Step 6: Enter correct email address and password
-    login.login_user("djoc301@gmail.com", "1234")
+    user_info = load_test_data("users.json")
+    correct_credential = user_info["valid_user"]
+    login.login_user(
+        email=correct_credential["email"],
+        password=correct_credential["password"]
+    )
 
     # Step 8: Verify that 'Logged in as username' is visible
-    assert login.is_logged_in_as_user("Dinesh"), "'Logged in as Dinesh' not visible"
+    name = correct_credential["name"]
+    assert login.is_logged_in_as_user(name), f"'Logged in as {name}' not visible"
 
     # Step 9: Click 'Logout' button
     login.click_logout()

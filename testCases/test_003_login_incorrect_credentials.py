@@ -1,9 +1,9 @@
 import pytest
 from selenium.webdriver.common.by import By
-
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
-from pageObjects.account_page import AccountPage
+from utilities.data_loader import load_test_data
+
 
 def test_003_login_user_with_incorrect_credentials(browser):
     # Initialize page objects
@@ -19,10 +19,13 @@ def test_003_login_user_with_incorrect_credentials(browser):
     # Step 3: Verify 'Login to your account' is visible on the login page
     assert signup_login_page.is_login_header_visible(), "'Login to your account' header not visible"
 
-    # Step 4: Enter incorrect email and password in the login form
-    incorrect_email = "incorrect_email@example.com"  # Replace with invalid email
-    incorrect_password = "incorrect_password"        # Replace with invalid password
-    signup_login_page.login_user(email=incorrect_email, password=incorrect_password)
+    # Step 4: Enter incorrect email and password in the login form\
+    user_info = load_test_data("users.json")
+    incorrect_info = user_info["invalid_user"]
+    signup_login_page.login_user(
+        email=incorrect_info["email"],
+        password=incorrect_info["password"]
+    )
 
     # Step 5: Verify error message 'Your email or password is incorrect!' is visible
     error_message_locator = (By.XPATH, "//p[contains(text(), 'Your email or password is incorrect!')]")
