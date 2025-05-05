@@ -1,5 +1,6 @@
 # tests/test_subscription_home.py
 from pageObjects.home_page import HomePage
+from utilities.data_loader import load_test_data
 
 
 def test_subscription_in_home_page(browser):
@@ -15,7 +16,11 @@ def test_subscription_in_home_page(browser):
     assert home.is_subscription_text_visible(), "'SUBSCRIPTION' text not visible"
 
     # Step 6: Enter email and click arrow
-    home.subscribe_with_email("testemail@example.com")
+    user_info = load_test_data("users.json")
+    correct_credential = user_info["valid_user"]
+    home.subscribe_with_email(
+        email=correct_credential["email"]
+    )
 
     # Step 7: Verify success message
     message = home.get_success_message_text()

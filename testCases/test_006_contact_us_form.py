@@ -1,13 +1,19 @@
+import time
+
 import pytest
-from selenium.webdriver.common.by import By
 from pageObjects.home_page import HomePage
 from pageObjects.contact_page import ContactUsPage
+from utilities.data_loader import load_test_data
 
 
 def test_006_contact_us_form(browser):
     # Initialize page objects
     home_page = HomePage(browser)
     contact_us_page = ContactUsPage(browser)
+
+    #Initialize TestData
+    messeges = load_test_data("contact_us.json")
+    required_testdata = messeges["contact_form"]
 
     # Step 1: Verify home page is displayed by checking if 'Home' link is active
     assert home_page.is_home_page_displayed(), "Home page is not visible or 'Home' link is not active"
@@ -19,14 +25,15 @@ def test_006_contact_us_form(browser):
     assert contact_us_page.is_get_in_touch_header_visible(), "'GET IN TOUCH' header is not visible"
 
     # Step 4: Enter name, email, subject, and message
-    name = "John Doe"
-    email = "john.doe@example.com"
-    subject = "Test Subject"
-    message = "This is a test message."
+    name = required_testdata["name"]
+    email = required_testdata["email"]
+    subject = required_testdata["subject"]
+    message = required_testdata["message"]
     contact_us_page.fill_contact_form(name, email, subject, message)
 
     # Step 5: Upload file
-    file_path = "C:\\Users\\Dell\\Downloads\\2149192357.jpg"  # Provide the correct path to the file
+    file_path = required_testdata["filepath"]
+    # Provide the correct path to the file
     contact_us_page.upload_file(file_path)
 
     # Step 6: Click 'Submit' button

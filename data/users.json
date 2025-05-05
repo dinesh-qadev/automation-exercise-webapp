@@ -1,7 +1,7 @@
 {
   "valid_user": {
-    "email": "djoc301@gmail.com",
-    "password": "1234",
+    "email": "dinesh@mailinator.com",
+    "password": "Selenium@123",
     "name": "Dinesh"
   },
   "invalid_user": {

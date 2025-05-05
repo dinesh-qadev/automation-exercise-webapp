@@ -1,6 +1,7 @@
 import pytest
 from pageObjects.home_page import HomePage
 from pageObjects.product_page import ProductsPage
+from utilities.data_loader import load_test_data
 
 
 def test_search_product(browser):
@@ -8,6 +9,8 @@ def test_search_product(browser):
 
     # Step 3: Verify home page is visible
     home_page = HomePage(browser)
+    product_info = load_test_data("products.json")
+    search_data = product_info["search"]
     assert home_page.is_home_page_displayed(), "Home page is not visible"
 
     # Step 4: Click on 'Products' button
@@ -18,7 +21,7 @@ def test_search_product(browser):
     assert products_page.is_all_products_page_displayed(), "All Products page is not visible"
 
     # Step 6: Enter product name in search input and click search button
-    product_name = "Tshirt"  # Example product
+    product_name = search_data["product_search"]  # Fetched product name from json
     products_page.enter_search_text(product_name)
     products_page.click_search_button()
 

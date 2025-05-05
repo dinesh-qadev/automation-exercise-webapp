@@ -12,6 +12,11 @@ def test_register_user(browser):
     signup_login_page = SignupLoginPage(browser)
     account_page = AccountPage(browser)
 
+    # Load data from json fie
+    user_data = load_test_data("users.json")
+    account_info = user_data["account_info"]
+    address_info = user_data["address_info"]
+
     # Step 3
     assert home_page.is_logo_displayed(), "Home page is not visible"
 
@@ -24,16 +29,15 @@ def test_register_user(browser):
     # Step 6-7
     #random_email = f"user{random.randint(1000,9999)}@test.com"
     random_email = generate_random_email()
-    signup_login_page.signup(name="TestUser", email=random_email)
+    signup_login_page.signup(
+        name=address_info["firstname"]+address_info["lastname"],
+        email=random_email
+    )
 
     # Step 8
     assert signup_login_page.is_enter_account_info_visible(), "'ENTER ACCOUNT INFORMATION' is not visible"
 
     # Step 9-11
-    #Load data from json fie
-    user_data = load_test_data("users.json")
-    account_info = user_data["account_info"]
-
     signup_login_page.fill_account_info(
         password=account_info["password"],
         day=account_info["day"],
@@ -42,7 +46,6 @@ def test_register_user(browser):
     )
 
     # Step 12
-    address_info = user_data["address_info"]
     signup_login_page.fill_address_info(
         firstname=address_info["firstname"],
         lastname=address_info["lastname"],
