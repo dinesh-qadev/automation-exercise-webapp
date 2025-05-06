@@ -18,20 +18,6 @@ class CartPage(BasePage):
         locator = self.PRODUCT_ROW_1 if product_index == 1 else self.PRODUCT_ROW_2
         return self.is_visible(locator)
 
-    # def verify_product_details(self, product_index):
-    #     if product_index == 1:
-    #         return (
-    #             self.is_visible(self.PRICE_1) and
-    #             self.is_visible(self.QUANTITY_1) and
-    #             self.is_visible(self.TOTAL_1)
-    #         )
-    #     elif product_index == 2:
-    #         return (
-    #             self.is_visible(self.PRICE_2) and
-    #             self.is_visible(self.QUANTITY_2) and
-    #             self.is_visible(self.TOTAL_2)
-    #         )
-
     def verify_product_details(self, product_index, expected_price):
         if product_index == 1:
             actual_price = self.get_element_text(self.PRICE_1).strip()
