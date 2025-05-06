@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from utilities.logger import Logger   # <<<<< Import your logger
+from selenium.webdriver.common.action_chains import ActionChains
+
 
 logger = Logger.get_logger()   # <<<<< Initialize logger
 
@@ -81,17 +83,6 @@ class BasePage:
             self.take_screenshot("submit_enter_failure")
             raise
 
-    # def get_elements_text_list(self, locator):
-    #     try:
-    #         elements = self.wait.until(EC.presence_of_all_elements_located(locator))
-    #         texts = [el.text.strip() for el in elements if el.text.strip()]
-    #         logger.info(f"Extracted texts from elements: {locator}")
-    #         return texts
-    #     except (TimeoutException, NoSuchElementException) as e:
-    #         logger.error(f"Failed to get texts from elements: {locator}. Error: {str(e)}")
-    #         self.take_screenshot("get_elements_text_list_failure")
-    #         raise
-
     def get_elements_text_list(self, locator):
         try:
             elements = self.wait.until(EC.presence_of_all_elements_located(locator))
@@ -116,3 +107,11 @@ class BasePage:
             logger.error(f"Text '{expected_text}' not found in element: {locator}. Error: {str(e)}")
             self.take_screenshot("text_presence_failure")
             raise
+
+    def get_attribute(self, locator, attribute_name):
+        element = self.wait.until(EC.visibility_of_element_located(locator))
+        return element.get_attribute(attribute_name)
+
+    def hover(self, locator):
+        element = self.wait.until(EC.visibility_of_element_located(locator))
+        ActionChains(self.driver).move_to_element(element).perform()

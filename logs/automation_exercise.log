@@ -648,3 +648,183 @@ Stacktrace:
 2025-05-05 21:28:30,069 - INFO - Clicked on element: ('id', 'submit_search')
 2025-05-05 21:28:30,140 - INFO - Element is visible: ('xpath', "//h2[text()='Searched Products']")
 2025-05-05 21:28:30,140 - INFO - Element is visible: ('xpath', "//h2[text()='Searched Products']")
+2025-05-06 15:10:58,429 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 15:10:58,429 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 20:29:29,143 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 20:29:29,143 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 20:31:56,568 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 20:31:56,568 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 20:34:12,963 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 20:34:12,963 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 21:42:31,377 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 21:42:31,377 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:14:21,125 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:14:21,125 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:31:52,855 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:31:52,855 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:31:53,379 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:31:53,379 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:31:54,621 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:31:54,621 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:32:05,441 - ERROR - Failed to click on element: ('xpath', '(//a[@data-product-id])[2]'). Error: Message: 
+
+2025-05-06 22:32:05,441 - ERROR - Failed to click on element: ('xpath', '(//a[@data-product-id])[2]'). Error: Message: 
+
+2025-05-06 22:34:01,799 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:34:01,799 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:34:02,322 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:34:02,322 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:34:03,000 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:34:03,000 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:34:13,720 - ERROR - Failed to click on element: ('xpath', '(//a[@data-product-id])[2]'). Error: Message: 
+
+2025-05-06 22:34:13,720 - ERROR - Failed to click on element: ('xpath', '(//a[@data-product-id])[2]'). Error: Message: 
+
+2025-05-06 22:36:27,271 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:36:27,271 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:36:27,925 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:36:27,925 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:36:28,574 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:36:28,574 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:36:29,104 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:36:29,104 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:36:31,012 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:36:31,012 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:36:31,058 - INFO - Element is visible: ('xpath', "(//tr[contains(@id, 'product')])[1]")
+2025-05-06 22:36:31,058 - INFO - Element is visible: ('xpath', "(//tr[contains(@id, 'product')])[1]")
+2025-05-06 22:36:31,093 - INFO - Element is visible: ('xpath', "(//tr[contains(@id, 'product')])[2]")
+2025-05-06 22:36:31,093 - INFO - Element is visible: ('xpath', "(//tr[contains(@id, 'product')])[2]")
+2025-05-06 22:51:12,513 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:51:12,513 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:51:13,033 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:51:13,033 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:51:13,695 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:51:13,695 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:51:14,430 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:51:14,430 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:51:16,412 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:51:16,412 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:51:16,456 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product')][1]")
+2025-05-06 22:51:16,456 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product')][1]")
+2025-05-06 22:55:36,096 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:55:36,096 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:55:36,610 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:55:36,610 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:55:37,288 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:55:37,288 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:55:37,819 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:55:37,819 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:55:39,752 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:55:39,752 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:55:39,806 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 22:55:39,806 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 22:55:49,833 - ERROR - Element not visible: ('xpath', "//tr[contains(@id, 'product-2')][2]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00FFFBD3+61635]
+	GetHandleVerifier [0x00FFFC14+61700]
+	(No symbol) [0x00E205D3]
+	(No symbol) [0x00E6899E]
+	(No symbol) [0x00E68D3B]
+	(No symbol) [0x00EB0E12]
+	(No symbol) [0x00E8D2E4]
+	(No symbol) [0x00EAE61B]
+	(No symbol) [0x00E8D096]
+	(No symbol) [0x00E5C840]
+	(No symbol) [0x00E5D6A4]
+	GetHandleVerifier [0x01247043+2450739]
+	GetHandleVerifier [0x012427C6+2432182]
+	GetHandleVerifier [0x0125D50E+2542078]
+	GetHandleVerifier [0x01016895+155013]
+	GetHandleVerifier [0x0101CF7D+181357]
+	GetHandleVerifier [0x01007428+92440]
+	GetHandleVerifier [0x010075D0+92864]
+	GetHandleVerifier [0x00FF1FC0+5296]
+	BaseThreadInitThunk [0x7573FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F582AE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F5827E+238]
+
+2025-05-06 22:55:49,833 - ERROR - Element not visible: ('xpath', "//tr[contains(@id, 'product-2')][2]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00FFFBD3+61635]
+	GetHandleVerifier [0x00FFFC14+61700]
+	(No symbol) [0x00E205D3]
+	(No symbol) [0x00E6899E]
+	(No symbol) [0x00E68D3B]
+	(No symbol) [0x00EB0E12]
+	(No symbol) [0x00E8D2E4]
+	(No symbol) [0x00EAE61B]
+	(No symbol) [0x00E8D096]
+	(No symbol) [0x00E5C840]
+	(No symbol) [0x00E5D6A4]
+	GetHandleVerifier [0x01247043+2450739]
+	GetHandleVerifier [0x012427C6+2432182]
+	GetHandleVerifier [0x0125D50E+2542078]
+	GetHandleVerifier [0x01016895+155013]
+	GetHandleVerifier [0x0101CF7D+181357]
+	GetHandleVerifier [0x01007428+92440]
+	GetHandleVerifier [0x010075D0+92864]
+	GetHandleVerifier [0x00FF1FC0+5296]
+	BaseThreadInitThunk [0x7573FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F582AE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F5827E+238]
+
+2025-05-06 22:59:47,463 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:59:47,463 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 22:59:47,981 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:59:47,981 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 22:59:48,645 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:59:48,645 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 22:59:49,280 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:59:49,280 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 22:59:50,732 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:59:50,732 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 22:59:50,782 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 22:59:50,782 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 22:59:50,819 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-2')][1]")
+2025-05-06 22:59:50,819 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-2')][1]")
+2025-05-06 23:10:06,120 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 23:10:06,120 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 23:10:06,641 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 23:10:06,641 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 23:10:07,310 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 23:10:07,310 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 23:10:07,922 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 23:10:07,922 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 23:10:10,057 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 23:10:10,057 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 23:10:10,103 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 23:10:10,103 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 23:10:10,132 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-2')][1]")
+2025-05-06 23:10:10,132 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-2')][1]")
+2025-05-06 23:10:10,162 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 500'
+2025-05-06 23:10:10,162 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 500'
+2025-05-06 23:10:10,192 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-06 23:10:10,192 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-06 23:10:10,291 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 500'
+2025-05-06 23:10:10,291 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 500'
+2025-05-06 23:15:39,889 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 23:15:39,889 - INFO - Clicked on element: ('xpath', "//a[@href='/products']")
+2025-05-06 23:15:40,423 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 23:15:40,423 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-06 23:15:41,070 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 23:15:41,070 - INFO - Clicked on element: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-06 23:15:41,584 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 23:15:41,584 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[2]//div[@class='product-overlay']//a[@data-product-id='2']")
+2025-05-06 23:15:43,519 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 23:15:43,519 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-06 23:15:43,566 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 23:15:43,566 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-1')][1]")
+2025-05-06 23:15:43,597 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-2')][1]")
+2025-05-06 23:15:43,597 - INFO - Element is visible: ('xpath', "//tr[contains(@id, 'product-2')][1]")
+2025-05-06 23:15:43,631 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 500'
+2025-05-06 23:15:43,631 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 500'
+2025-05-06 23:15:43,741 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-06 23:15:43,741 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-06 23:15:43,779 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 500'
+2025-05-06 23:15:43,779 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 500'
+2025-05-06 23:15:43,813 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 400'
+2025-05-06 23:15:43,813 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 400'
+2025-05-06 23:15:43,847 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+2025-05-06 23:15:43,847 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+2025-05-06 23:15:43,881 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 400'
+2025-05-06 23:15:43,881 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 400'
