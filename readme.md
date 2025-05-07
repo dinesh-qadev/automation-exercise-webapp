@@ -1,6 +1,6 @@
 # Selenium Python Automation Framework for AutomationExercise.com
 
-![GitHub](https://img.shields.io/github/license/dinesh-qadev/automationexercise-selenium-python)
+![GitHub](https://img.shields.io/github/license/dinesh-qadev/automation-exercise-webapp)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-brightgreen)
 ![Pytest](https://img.shields.io/badge/Pytest-Test_Framework-yellow)
