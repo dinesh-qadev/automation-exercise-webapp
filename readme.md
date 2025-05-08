@@ -1,6 +1,6 @@
 # Selenium Python Automation Framework for AutomationExercise.com
 
-![GitHub](https://img.shields.io/github/license/dinesh-qadev/automation-exercise-webapp)
+<!-- ![GitHub](https://img.shields.io/github/license/dinesh-qadev/automation-exercise-webapp) -->
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-brightgreen)
 ![Pytest](https://img.shields.io/badge/Pytest-Test_Framework-yellow)
@@ -41,6 +41,8 @@ handling, and reporting.
 - 🧪 Pytest-based test suite with fixtures
 - 📊 Allure reporting integration
 - 🧩 Modular, scalable, and easy to extend
+- 🖼️ Automatic screenshot capture on test failures
+- 🧾 Action-level logging for every interaction with the application under test
 - 📖 Learning Resource as reference for beginners 
 
 ---
