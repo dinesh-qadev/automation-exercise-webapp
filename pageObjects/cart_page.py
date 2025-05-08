@@ -14,6 +14,9 @@ class CartPage(BasePage):
     QUANTITY_2 = (By.XPATH, "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']")
     TOTAL_2 = (By.XPATH, "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']")
 
+    #Locator for TestCase_013
+    PRODUCT_QUANTITIES = (By.XPATH, "//table[@id='cart_info_table']//td[@class='cart_quantity']")
+
     def is_product_in_cart(self, product_index):
         locator = self.PRODUCT_ROW_1 if product_index == 1 else self.PRODUCT_ROW_2
         return self.is_visible(locator)
@@ -47,3 +50,7 @@ class CartPage(BasePage):
                 quantity == "1"
         )
 
+    # Methods for TestCase_013
+    def get_product_quantity(self):
+        quantity_text = self.get_element_text(self.PRODUCT_QUANTITIES).strip()
+        return int(quantity_text)

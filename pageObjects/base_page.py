@@ -109,9 +109,36 @@ class BasePage:
             raise
 
     def get_attribute(self, locator, attribute_name):
-        element = self.wait.until(EC.visibility_of_element_located(locator))
-        return element.get_attribute(attribute_name)
+        try:
+            # Wait until the element is visible
+            element = self.wait.until(EC.visibility_of_element_located(locator))
+            # Return the attribute value
+            return element.get_attribute(attribute_name)
+        except (TimeoutException, NoSuchElementException) as e:
+            logger.error(f"Failed to get attribute '{attribute_name}' from element: {locator}. Error: {str(e)}")
+            self.take_screenshot("get_attribute_failure")
+            raise
 
     def hover(self, locator):
-        element = self.wait.until(EC.visibility_of_element_located(locator))
-        ActionChains(self.driver).move_to_element(element).perform()
+        try:
+            # Wait until the element is visible
+            element = self.wait.until(EC.visibility_of_element_located(locator))
+            # Perform hover action
+            ActionChains(self.driver).move_to_element(element).perform()
+        except (TimeoutException, NoSuchElementException) as e:
+            logger.error(f"Failed to hover over element: {locator}. Error: {str(e)}")
+            self.take_screenshot("hover_failure")
+            raise
+
+    def clear_input(self, locator):
+        try:
+            # Wait for the element to be visible
+            element = self.wait.until(EC.visibility_of_element_located(locator))
+            # Clear the input field
+            element.clear()
+            logger.info(f"Cleared the text in element: {locator}")
+        except (TimeoutException, NoSuchElementException) as e:
+            logger.error(f"Failed to clear text in element: {locator}. Error: {str(e)}")
+            self.take_screenshot("clear_input_failure")
+            raise
+

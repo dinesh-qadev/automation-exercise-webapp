@@ -35,5 +35,5 @@ def test_add_products_in_cart(browser):
     assert cart_page.is_product_in_cart(2), "Second product not found in cart"
 
     # Step 10: Verify prices, quantities, and totals (including captured prices)
-    assert cart_page.verify_product_details(1, product_1_price), "Product 1 price/quantity/total is incorrect"
+    assert cart_page.verify_product_details(1, product_1_price),"Product 1 price/quantity/total is incorrect"
     assert cart_page.verify_product_details(2, product_2_price), "Product 2 price/quantity/total is incorrect"

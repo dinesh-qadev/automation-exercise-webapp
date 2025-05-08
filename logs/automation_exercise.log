@@ -828,3 +828,111 @@ Stacktrace:
 2025-05-06 23:15:43,847 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
 2025-05-06 23:15:43,881 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 400'
 2025-05-06 23:15:43,881 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 400'
+2025-05-08 22:12:33,452 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:12:33,452 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:12:33,881 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:12:33,881 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:12:33,957 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:12:33,957 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:13:29,192 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:13:29,192 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:13:29,252 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:13:29,252 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:13:29,334 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:13:29,334 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:18:41,093 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:18:41,093 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:18:41,141 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:18:41,141 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:18:41,208 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:18:41,208 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:19:50,878 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:19:50,878 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:19:50,926 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:19:50,926 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:19:51,020 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:19:51,020 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:22:52,766 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:22:52,766 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:22:52,817 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:22:52,817 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:22:52,898 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:22:52,898 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:22:53,195 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-08 22:22:53,195 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-08 22:23:03,229 - ERROR - Failed to click on element: ('xpath', "//button[contains(text(),'Add to cart')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0049FC53+61635]
+	GetHandleVerifier [0x0049FC94+61700]
+	(No symbol) [0x002C05D3]
+	(No symbol) [0x0030899E]
+	(No symbol) [0x00308D3B]
+	(No symbol) [0x00350E12]
+	(No symbol) [0x0032D2E4]
+	(No symbol) [0x0034E61B]
+	(No symbol) [0x0032D096]
+	(No symbol) [0x002FC840]
+	(No symbol) [0x002FD6A4]
+	GetHandleVerifier [0x00724573+2701795]
+	GetHandleVerifier [0x0071FCF6+2683238]
+	GetHandleVerifier [0x0073AA3E+2793134]
+	GetHandleVerifier [0x004B6915+155013]
+	GetHandleVerifier [0x004BCFFD+181357]
+	GetHandleVerifier [0x004A74A8+92440]
+	GetHandleVerifier [0x004A7650+92864]
+	GetHandleVerifier [0x00492040+5296]
+	BaseThreadInitThunk [0x7573FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F582AE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F5827E+238]
+
+2025-05-08 22:23:03,229 - ERROR - Failed to click on element: ('xpath', "//button[contains(text(),'Add to cart')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0049FC53+61635]
+	GetHandleVerifier [0x0049FC94+61700]
+	(No symbol) [0x002C05D3]
+	(No symbol) [0x0030899E]
+	(No symbol) [0x00308D3B]
+	(No symbol) [0x00350E12]
+	(No symbol) [0x0032D2E4]
+	(No symbol) [0x0034E61B]
+	(No symbol) [0x0032D096]
+	(No symbol) [0x002FC840]
+	(No symbol) [0x002FD6A4]
+	GetHandleVerifier [0x00724573+2701795]
+	GetHandleVerifier [0x0071FCF6+2683238]
+	GetHandleVerifier [0x0073AA3E+2793134]
+	GetHandleVerifier [0x004B6915+155013]
+	GetHandleVerifier [0x004BCFFD+181357]
+	GetHandleVerifier [0x004A74A8+92440]
+	GetHandleVerifier [0x004A7650+92864]
+	GetHandleVerifier [0x00492040+5296]
+	BaseThreadInitThunk [0x7573FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F582AE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F5827E+238]
+
+2025-05-08 22:31:14,231 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:31:14,231 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:31:14,283 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:31:14,283 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:31:14,350 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:31:14,350 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:31:14,469 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-08 22:31:14,469 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-08 22:31:14,616 - INFO - Clicked on element: ('xpath', "//button[normalize-space()='Add to cart']")
+2025-05-08 22:31:14,616 - INFO - Clicked on element: ('xpath', "//button[normalize-space()='Add to cart']")
+2025-05-08 22:31:16,728 - INFO - Clicked on element: ('xpath', "//u[normalize-space()='View Cart']")
+2025-05-08 22:31:16,728 - INFO - Clicked on element: ('xpath', "//u[normalize-space()='View Cart']")
+2025-05-08 22:32:40,160 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:32:40,160 - INFO - Clicked on element: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-08 22:32:40,220 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:32:40,220 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-08 22:32:40,297 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:32:40,297 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-08 22:32:40,578 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-08 22:32:40,578 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-08 22:32:40,701 - INFO - Clicked on element: ('xpath', "//button[normalize-space()='Add to cart']")
+2025-05-08 22:32:40,701 - INFO - Clicked on element: ('xpath', "//button[normalize-space()='Add to cart']")
+2025-05-08 22:32:42,795 - INFO - Clicked on element: ('xpath', "//u[normalize-space()='View Cart']")
+2025-05-08 22:32:42,795 - INFO - Clicked on element: ('xpath', "//u[normalize-space()='View Cart']")
+2025-05-08 22:32:42,844 - INFO - Got text from element ('xpath', "//table[@id='cart_info_table']//td[@class='cart_quantity']"): '4'
+2025-05-08 22:32:42,844 - INFO - Got text from element ('xpath', "//table[@id='cart_info_table']//td[@class='cart_quantity']"): '4'

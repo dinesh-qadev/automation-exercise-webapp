@@ -20,6 +20,9 @@ class HomePage(BasePage):
     SUBMIT_BUTTON = (By.ID, "subscribe")
     SUCCESS_MESSAGE = (By.XPATH, "//div[@id='success-subscribe']//div[contains(text(), 'successfully subscribed')]")
 
+    #Locators for TestCase_013
+    VIEW_PRODUCT_LINK = (By.XPATH, "(//a[contains(text(),'View Product')])[1]")
+
     def __init__(self, driver):
         #self.driver = driver
         super().__init__(driver)
@@ -90,5 +93,9 @@ class HomePage(BasePage):
     def click_cart_button(self):
         """Clicks on the 'Cart' button"""
         self.click(self.CART_BUTTON)
+
+    #Method for TestCase_013
+    def click_view_product(self):
+        self.click(self.VIEW_PRODUCT_LINK)
 
 
