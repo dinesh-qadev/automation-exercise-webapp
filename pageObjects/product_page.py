@@ -6,7 +6,7 @@ from utilities.text_formatter import clean_text
 class ProductsPage(BasePage):
     #Locators
     PRODUCTS_HEADER = (By.XPATH, "//h2[normalize-space()='All Products']")
-    FIRST_PRODUCT = (By.XPATH, "//div[@class='features_items']//div[@class='productinfo text-center']")
+    PRODUCT_LIST = (By.XPATH, "//div[@class='features_items']//div[@class='productinfo text-center']")
     FIRST_VIEW_PRODUCT = (By.XPATH, "(//a[contains(text(),'View Product')])[1]")
 
     #Locatior for testcase_009
@@ -38,7 +38,7 @@ class ProductsPage(BasePage):
         return self.is_visible(self.PRODUCTS_HEADER)
 
     def is_product_list_visible(self):
-        return self.is_visible(self.FIRST_PRODUCT)
+        return self.is_visible(self.PRODUCT_LIST)
 
     def click_first_view_product(self):
         self.click(self.FIRST_VIEW_PRODUCT)

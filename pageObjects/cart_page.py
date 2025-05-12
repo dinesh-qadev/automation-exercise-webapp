@@ -17,6 +17,13 @@ class CartPage(BasePage):
     #Locator for TestCase_013
     PRODUCT_QUANTITIES = (By.XPATH, "//table[@id='cart_info_table']//td[@class='cart_quantity']")
 
+    #Locators for TestCase14
+    PROCEED_TO_CHECKOUT_BUTTON = (By.XPATH, "//a[normalize-space()='Proceed To Checkout']")
+    REGISTER_LOGIN_BUTTON = (By.XPATH, "//u[normalize-space()='Register / Login']")
+
+    def is_cart_page_visible(self):
+        return "/view_cart" in self.driver.current_url
+
     def is_product_in_cart(self, product_index):
         locator = self.PRODUCT_ROW_1 if product_index == 1 else self.PRODUCT_ROW_2
         return self.is_visible(locator)
@@ -54,3 +61,10 @@ class CartPage(BasePage):
     def get_product_quantity(self):
         quantity_text = self.get_element_text(self.PRODUCT_QUANTITIES).strip()
         return int(quantity_text)
+
+    #Methods for Testcase_14
+    def click_proceed_to_checkout(self):
+        self.click(self.PROCEED_TO_CHECKOUT_BUTTON)
+
+    def click_register_login_button(self):
+        self.click(self.REGISTER_LOGIN_BUTTON)
