@@ -12,7 +12,7 @@ class AccountPage(BasePage):
 
     #Dynamic Locator
     def get_logged_in_as_locator(self, user_name):
-        return By.XPATH, f"//a[contains(text(),'Logged in as {user_name}')]"
+        return By.XPATH, f"//a[normalize-space(text())='Logged in as {user_name}']"
 
     def is_account_created_visible(self):
         return self.is_visible(self.ACCOUNT_CREATED)

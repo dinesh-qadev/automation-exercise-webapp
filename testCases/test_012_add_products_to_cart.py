@@ -19,13 +19,15 @@ def test_add_products_in_cart(browser):
 
     # Step 5: Hover and add first product to cart, capture price
     print("hovering over to product test started")
-    product_1_price = products_page.hover_and_add_to_cart_and_get_price(1)
+    #product_1_price = products_page.hover_and_add_to_cart_and_get_price(1)
+    product_1_name, product_1_price = products_page.hover_and_add_to_cart_and_get_price(1)
 
     # Step 6: Click 'Continue Shopping'
     products_page.click_continue_shopping()
 
     # Step 7: Hover and add second product to cart, capture price
-    product_2_price = products_page.hover_and_add_to_cart_and_get_price(2)
+    #product_2_price = products_page.hover_and_add_to_cart_and_get_price(2)
+    product_2_name, product_2_price = products_page.hover_and_add_to_cart_and_get_price(2)
 
     # Step 8: Click 'View Cart'
     products_page.click_view_cart()

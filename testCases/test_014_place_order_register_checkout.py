@@ -6,9 +6,9 @@ from pageObjects.product_page import ProductsPage
 from pageObjects.cart_page import CartPage
 from pageObjects.signup_login_page import SignupLoginPage
 from pageObjects.account_page import AccountPage
-from pageObjects.checkout_page import CheckoutPage
+from pageObjects.checkoutPage import CheckoutPage
 from pageObjects.payment_page import PaymentPage
-from pageObjects.account_deleted_page import AccountDeletedPage
+
 
 from utilities.data_generator import generate_random_email
 from utilities.data_loader import load_test_data
@@ -23,14 +23,13 @@ def test_place_order_register_checkout(browser):
     account = AccountPage(browser)
     checkout = CheckoutPage(browser)
     payment = PaymentPage(browser)
-    account_deleted = AccountDeletedPage(browser)
 
     # Step 1–3: Verify home page
     assert home.is_home_page_displayed()
 
     # Step 4–6: Add product and go to cart
 
-    product.hover_and_add_to_cart_and_get_price(1)
+    expected_product_name, expected_price = product.hover_and_add_to_cart_and_get_price(product_index=1)
     product. click_view_cart()
     assert cart.is_cart_page_visible(), "Cart page URL is incorrect or not loaded"
 
@@ -76,11 +75,31 @@ def test_place_order_register_checkout(browser):
     home.click_cart_button()
     cart.click_proceed_to_checkout()
 
-    # Step 14–15: Verify address and review order
+    # Step 14: Verify address and review order
+    assert checkout.is_address_and_review_visible(), f"Review section is not visible in checkout page"
+
+    #Verify address content and order details
     expected_address = f"{address_info['firstname']} {address_info['lastname']} {address_info['company']} {address_info['address1']} {address_info['address2']} {address_info['city']} {address_info['state']} {address_info['zipcode']} {address_info['country']} {address_info['mobile']}"
-    actual_address = checkout.get_address_delivery_box_text()
+    actual_address = checkout.get_delivery_address_text()
     assert compare_data(expected_address, actual_address), f"Address mismatch: Expected - '{expected_address}', but got - '{actual_address}'"
 
-    #"Rest teststeps are left"
+    checkout.verify_product_review_details(
+        expected_name=expected_product_name,
+        expected_price=expected_price,
+        expected_quantity=1
+    )
 
+    # Step 15: Enter comment and click Place Order
+    checkout.enter_comment("Please deliver between 9AM and 5PM")
+    checkout.click_place_order()
 
+    # Step 16-18: Payment
+    payment_test_data = load_test_data("payment_test_data.json")
+    card_details = payment_test_data["test_payment_data"]
+    payment.fill_payment_form(card_details)
+    payment.click_pay_and_confirm()
+    payment.verify_order_success_message()
+
+    # Step 19-20
+    account.click_delete_account()
+    assert account.is_account_deleted_visible(), "'ACCOUNT DELETED!' is not visible"

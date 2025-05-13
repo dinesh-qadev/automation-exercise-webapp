@@ -69,7 +69,7 @@ def test_register_user(browser):
     account_page.click_continue()
 
     # Step 16
-    assert account_page.is_logged_in_as_visible(), "'Logged in as username' is not visible"
+    assert account_page.is_logged_in_as_visible(user_name=address_info["firstname"]+address_info["lastname"]), "'Logged in as username' is not visible"
 
     # Step 17
     account_page.click_delete_account()

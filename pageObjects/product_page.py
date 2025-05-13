@@ -31,6 +31,11 @@ class ProductsPage(BasePage):
     CONTINUE_SHOPPING_BUTTON = (By.XPATH, "//button[text()='Continue Shopping']")
     VIEW_CART_BUTTON = (By.XPATH, "//u[text()='View Cart']")
 
+    #Locator for TestCase_014
+    PRODUCT_NAME_1 = (By.XPATH, "(//div[@class='productinfo text-center'])[1]//p")
+    PRODUCT_NAME_2 = (By.XPATH, "(//div[@class='productinfo text-center'])[2]//p")
+
+
     def __init__(self, driver):
         super().__init__(driver)
 
@@ -74,15 +79,22 @@ class ProductsPage(BasePage):
             price_element = self.wait_for_element(self.PRICE_1) #self.wait.until(EC.visibility_of_element_located(self.PRICE_1))
             price = price_element.text.strip()
             print(price)
+            product_element = self.wait_for_element(self.PRODUCT_NAME_1)
+            product = product_element.text.strip()
             self.hover(self.PRODUCT_CARD_1)
             self.click(self.ADD_TO_CART_BUTTON_1)
-            print("added to cart")
+            print(f"Product '{product}' with price '{price}' added to cart.")
         elif product_index == 2:
             price_element = self.wait_for_element(self.PRICE_2) #self.wait.until(EC.visibility_of_element_located(self.PRICE_2))
             price = price_element.text.strip()
+            product_element = self.wait_for_element(self.PRODUCT_NAME_2)
+            product = product_element.text.strip()
             self.hover(self.PRODUCT_CARD_2)
             self.click(self.ADD_TO_CART_BUTTON_2)
-        return price
+            print(f"Product '{product}' with price '{price}' added to cart.")
+        else:
+            raise ValueError(f"Unsupported product index: {product_index}")
+        return product, price
 
     def click_continue_shopping(self):
         self.click(self.CONTINUE_SHOPPING_BUTTON)

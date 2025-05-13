@@ -21,6 +21,9 @@ class CartPage(BasePage):
     PROCEED_TO_CHECKOUT_BUTTON = (By.XPATH, "//a[normalize-space()='Proceed To Checkout']")
     REGISTER_LOGIN_BUTTON = (By.XPATH, "//u[normalize-space()='Register / Login']")
 
+    PRODUCT_NAME_1 = (By.XPATH, "(//div[@class='productinfo text-center'])[1]//p")
+    PRODUCT_NAME_2 = (By.XPATH, "(//div[@class='productinfo text-center'])[2]//p")
+
     def is_cart_page_visible(self):
         return "/view_cart" in self.driver.current_url
 
@@ -33,15 +36,17 @@ class CartPage(BasePage):
             actual_price = self.get_element_text(self.PRICE_1).strip()
             quantity = self.get_element_text(self.QUANTITY_1).strip()
             total = self.get_element_text(self.TOTAL_1).strip()
+            # product = self.get_element_text(self.PRODUCT_NAME_1).strip()
         elif product_index == 2:
             actual_price = self.get_element_text(self.PRICE_2).strip()
             quantity = self.get_element_text(self.QUANTITY_2).strip()
             total = self.get_element_text(self.TOTAL_2).strip()
+            # product = self.get_element_text(self.PRODUCT_NAME_2).strip()
         else:
             return False
 
         # Clean the price string and convert to number
-        actual_price_val = extract_digits(actual_price)  # Removes $ by removing non digit value
+        actual_price_val = extract_digits(actual_price)  # Removes RS by removing non digit value
         total_val = extract_digits(total)  # Same for total
 
         # For expected price, check if it's a string like "RS. 500" or already a number like 500
