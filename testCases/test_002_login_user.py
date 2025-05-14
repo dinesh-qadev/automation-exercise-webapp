@@ -28,7 +28,7 @@ def test_002_login_user_with_correct_credentials(browser):
         password=correct_credential["password"])
 
     # Step 8: Verify 'Logged in as username' is visible after login
-    assert account_page.is_logged_in_as_visible(), "'Logged in as username' is not visible"
+    assert account_page.is_logged_in_as_visible(user_name=correct_credential["name"]), "'Logged in as username' is not visible"
 
     # # Step 9: Click 'Delete Account' button to delete the account
     # account_page.click_delete_account()
