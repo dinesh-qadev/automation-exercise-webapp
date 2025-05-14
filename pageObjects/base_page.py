@@ -142,3 +142,13 @@ class BasePage:
             self.take_screenshot("clear_input_failure")
             raise
 
+    def wait_for_element_to_disappear(self, locator):
+        try:
+            # Use the existing self.wait to handle the timeout implicitly
+            self.wait.until(EC.invisibility_of_element_located(locator))
+            logger.info(f"Element disappeared: {locator}")
+            return True
+        except TimeoutException:
+            logger.error(f"Element did not disappear in time: {locator}")
+            self.take_screenshot("wait_for_element_to_disappear_failure")
+            return False

@@ -24,6 +24,10 @@ class CartPage(BasePage):
     PRODUCT_NAME_1 = (By.XPATH, "(//div[@class='productinfo text-center'])[1]//p")
     PRODUCT_NAME_2 = (By.XPATH, "(//div[@class='productinfo text-center'])[2]//p")
 
+    #Testcase_017
+    DELETE_PRODUCT_BUTTON = (By.XPATH, "//a[@class='cart_quantity_delete']")
+    PRODUCT_IN_CART = (By.XPATH, "//tr[@id='product-1']")
+
     def is_cart_page_visible(self):
         return "/view_cart" in self.driver.current_url
 
@@ -73,3 +77,10 @@ class CartPage(BasePage):
 
     def click_register_login_button(self):
         self.click(self.REGISTER_LOGIN_BUTTON)
+
+    #Methods for Testcase_017
+    def delete_product_from_cart(self):
+        self.click(self.DELETE_PRODUCT_BUTTON)
+
+    def is_product_removed(self):
+        return self.wait_for_element_to_disappear(self.PRODUCT_IN_CART)

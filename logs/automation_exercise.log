@@ -2366,3 +2366,11 @@ Mobile App Testing Services'
 2025-05-14 23:47:39,174 - INFO - Clicked on element: ('id', 'submit')
 2025-05-14 23:47:39,217 - INFO - Got text from element ('xpath', "//p[normalize-space(text())='Congratulations! Your order has been confirmed!']"): 'Congratulations! Your order has been confirmed!'
 2025-05-14 23:47:39,217 - INFO - Got text from element ('xpath', "//p[normalize-space(text())='Congratulations! Your order has been confirmed!']"): 'Congratulations! Your order has been confirmed!'
+2025-05-15 00:36:31,555 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-15 00:36:31,555 - INFO - Clicked on element: ('xpath', "(//div[@class='product-image-wrapper'])[1]//div[@class='product-overlay']//a[@data-product-id='1']")
+2025-05-15 00:36:33,597 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-15 00:36:33,597 - INFO - Clicked on element: ('xpath', "//u[text()='View Cart']")
+2025-05-15 00:36:33,747 - INFO - Clicked on element: ('xpath', "//a[@class='cart_quantity_delete']")
+2025-05-15 00:36:33,747 - INFO - Clicked on element: ('xpath', "//a[@class='cart_quantity_delete']")
+2025-05-15 00:36:34,307 - INFO - Element disappeared: ('xpath', "//tr[@id='product-1']")
+2025-05-15 00:36:34,307 - INFO - Element disappeared: ('xpath', "//tr[@id='product-1']")

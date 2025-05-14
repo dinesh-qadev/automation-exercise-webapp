@@ -8,7 +8,7 @@ from pageObjects.payment_page import PaymentPage
 from utilities.data_loader import load_test_data
 
 
-def test_place_order_register_before_checkout(browser):
+def test_place_order_login_before_checkout(browser):
     home = HomePage(browser)
     product = ProductsPage(browser)
     cart = CartPage(browser)
