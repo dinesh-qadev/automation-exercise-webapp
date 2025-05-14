@@ -100,7 +100,7 @@ def test_place_order_register_before_checkout(browser):
     # Click 'Pay and Confirm Order' button
     payment.click_pay_and_confirm()
 
-    # Verify success message 'Your order has been placed successfully!'
+    # Verify success message 'Congratulations! Your order has been confirmed!'
     payment.verify_order_success_message()
 
     # Click 'Delete Account' button
