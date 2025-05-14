@@ -12,7 +12,7 @@ class PaymentPage(BasePage):
     EXPIRY_MONTH = (By.NAME, "expiry_month")
     EXPIRY_YEAR = (By.NAME, "expiry_year")
     PAY_AND_CONFIRM_BUTTON = (By.ID, "submit")
-    ORDER_SUCCESS_MESSAGE = (By.XPATH, "//p[normalize-space(text())='Your order has been placed successfully!']")
+    ORDER_SUCCESS_MESSAGE = (By.XPATH, "//p[normalize-space(text())='Congratulations! Your order has been confirmed!']")
 
     def fill_payment_form(self, payment_data):
         self.enter_text(self.NAME_ON_CARD, payment_data['name_on_card'])
@@ -26,5 +26,5 @@ class PaymentPage(BasePage):
 
     def verify_order_success_message(self):
         success_message = self.get_element_text(self.ORDER_SUCCESS_MESSAGE).strip()
-        assert success_message == "Your order has been placed successfully!", \
+        assert success_message == "Congratulations! Your order has been confirmed!", \
             f"Expected success message not found. Got: '{success_message}'"

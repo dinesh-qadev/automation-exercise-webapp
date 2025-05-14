@@ -26,7 +26,7 @@ class CheckoutPage(BasePage):
 
         assert expected_name in actual_name, f"Expected name '{expected_name}', got '{actual_name}'"
         assert extract_digits(actual_price) == extract_digits(expected_price), f"Expected price {expected_price}, got {actual_price}"
-        assert actual_quantity == expected_quantity, f"Expected quantity {expected_quantity}, got {actual_quantity}"
+        assert int(actual_quantity) == int(expected_quantity), f"Expected quantity {expected_quantity}, got {actual_quantity}"
 
     def enter_comment(self, comment):
         self.enter_text(self.COMMENT_TEXTAREA, comment)
