@@ -15,7 +15,7 @@ on [AutomationExercise.com](https://www.automationexercise.com/), a demo site fo
 
 ---
 
-## 🧑‍🏫 What You Will Learn
+## What You Will Learn
 
 This project is a hands-on learning resource where you can explore:
 
@@ -31,23 +31,23 @@ handling, and reporting.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Full automation for e-commerce user flows
-- 🔐 Login, Registration, and Logout simulation
-- 🔍 Product Search and Filter tests
-- 🛒 Add to Cart and Checkout simulation
-- 📄 Page Object Model (POM) design pattern for test organization
-- 🧪 Pytest-based test suite with fixtures
-- 📊 Allure reporting integration
-- 🧩 Modular, scalable, and easy to extend
-- 🖼️ Automatic screenshot capture on test failures
-- 🧾 Action-level logging for every interaction with the application under test
-- 📖 Learning Resource as reference for beginners 
+- Full automation for e-commerce user flows
+- Login, Registration, and Logout simulation
+- Product Search and Filter tests
+- Add to Cart and Checkout simulation
+- Page Object Model (POM) design pattern for test organization
+- Pytest-based test suite with fixtures
+- Allure reporting integration
+- Modular, scalable, and easy to extend
+- Automatic screenshot capture on test failures
+- Action-level logging for every interaction with the application under test
+- Learning Resource as reference for beginners 
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.8+
 - **Automation:** Selenium WebDriver
@@ -58,7 +58,7 @@ handling, and reporting.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 automation-exercise-webapp/
 ├── configurations/ # Configuration files (e.g., test settings)
@@ -73,13 +73,13 @@ automation-exercise-webapp/
 
 ---
 
-## 🧪 Test Cases Overview
+## Test Cases Overview
 This repository contains automated tests that validate various features of the automationexercise.com application.
 Here you can find the detailed testcases: https://docs.google.com/spreadsheets/d/1NUxqXTgNuichaF1jcYwfu4PFWOOiKpK-FEF60RkuZe4/edit?gid=0#gid=0 
 
 ---
 
-## 📝 Test Plan Overview
+## Test Plan Overview
 ### Test Strategy
 This test automation framework focuses on end-to-end functional testing, ensuring the core features of the application
 are validated:
@@ -97,7 +97,7 @@ The test cases cover the following features:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 To get started with this project, follow these steps:
 
@@ -112,16 +112,16 @@ Coming Soon
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 Coming Soon
 
 ---
-## 📸 Screenshots & Reports
+## Screenshots & Reports
 Coming Soon: Sample test report screenshots and test run demos.
 
 ---
 
-## 📘 Learn More on My Blog
+## Learn More on My Blog
 
 For a complete walkthrough of this Selenium + Python test automation framework — including setup steps, code
 explanation, and best practices — check out my blog post:
