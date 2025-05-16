@@ -23,6 +23,11 @@ class HomePage(BasePage):
     #Locators for TestCase_013
     VIEW_PRODUCT_LINK = (By.XPATH, "(//a[contains(text(),'View Product')])[1]")
 
+    # Locators for TestCase_018
+    CATEGORY_SECTION = (By.CSS_SELECTOR, "div.left-sidebar > h2")
+    MAIN_CATEGORY_TOGGLE = (By.XPATH, "//a[normalize-space()='{category}']")
+    SUB_CATEGORY_LINK = (By.XPATH, "//div[@id='{category_id}']//a[contains(text(),'{subcategory}')]")
+
     def __init__(self, driver):
         #self.driver = driver
         super().__init__(driver)
@@ -98,4 +103,33 @@ class HomePage(BasePage):
     def click_view_product(self):
         self.click(self.VIEW_PRODUCT_LINK)
 
+    # Methods for TestCase_018
+    def is_category_section_visible(self):
+        """Verify the left sidebar 'CATEGORY' title is visible."""
+        return self.is_visible(self.CATEGORY_SECTION)
 
+    def expand_main_category(self, category_name):
+        """
+        Expands a main category (like 'Women').
+
+        :param category_name: e.g., 'Women'
+        """
+        toggle_locator = (
+            By.XPATH,
+            self.MAIN_CATEGORY_TOGGLE[1].format(category=category_name)
+        )
+        self.click(toggle_locator)
+
+    def click_sub_category(self, category_name, sub_category_name):
+        """
+        Clicks on a sub-category (e.g., 'Dress' under 'Women').
+
+        :param category_name: e.g., 'Women'
+        :param sub_category_name: e.g., 'Dress'
+        """
+        category_id = category_name.strip().replace(" ", "")
+        sub_cat_locator = (
+            By.XPATH,
+            self.SUB_CATEGORY_LINK[1].format(category_id=category_id, subcategory=sub_category_name)
+        )
+        self.click(sub_cat_locator)

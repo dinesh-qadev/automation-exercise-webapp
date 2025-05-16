@@ -22,7 +22,7 @@ class BasePage:
         timestamp = time.strftime("%Y%m%d-%H%M%S")
         filename = f"screenshots/{action_name}_{timestamp}.png"
         self.driver.save_screenshot(filename)
-        logger.info(f"📸 Screenshot saved: {filename}")
+        logger.info(f"Screenshot saved: {filename}")
 
     def click(self, locator):
         try:
@@ -152,3 +152,6 @@ class BasePage:
             logger.error(f"Element did not disappear in time: {locator}")
             self.take_screenshot("wait_for_element_to_disappear_failure")
             return False
+
+    def get_elements(self, locator):
+        return self.wait.until(EC.presence_of_all_elements_located(locator))

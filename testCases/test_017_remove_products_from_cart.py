@@ -1,13 +1,6 @@
 from pageObjects.home_page import HomePage
 from pageObjects.product_page import ProductsPage
 from pageObjects.cart_page import CartPage
-from pageObjects.signup_login_page import SignupLoginPage
-from pageObjects.account_page import AccountPage
-from pageObjects.checkoutPage import CheckoutPage
-from pageObjects.payment_page import PaymentPage
-from utilities.data_generator import generate_random_email
-from utilities.data_loader import load_test_data
-from utilities.utils import compare_data
 
 
 def test_place_order_register_before_checkout(browser):

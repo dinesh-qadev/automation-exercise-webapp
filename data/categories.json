@@ -1,0 +1,12 @@
+{
+  "women": {
+    "main_category": "Women",
+    "sub_category": "Tops",
+    "expected_heading": "WOMEN - TOPS PRODUCTS"
+  },
+  "men": {
+    "main_category": "Men",
+    "sub_category": "Tshirts",
+    "expected_heading": "MEN - TSHIRTS PRODUCTS"
+  }
+}

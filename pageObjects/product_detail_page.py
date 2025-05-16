@@ -16,6 +16,9 @@ class ProductDetailPage(BasePage):
     ADD_TO_CART_BUTTON = (By.XPATH, "//button[normalize-space()='Add to cart']")
     VIEW_CART_LINK = (By.XPATH, "//u[normalize-space()='View Cart']")
 
+    # Locator for test_018
+    PRODUCT_CATEGORY = (By.XPATH, "//div[@class='product-information']//p[contains(text(), 'Category')]")
+
     def __init__(self, driver):
         super().__init__(driver)
 
@@ -58,3 +61,7 @@ class ProductDetailPage(BasePage):
 
     def click_view_cart(self):
         self.click(self.VIEW_CART_LINK)
+
+    # Methods for Test_018
+    def get_product_category_text(self):
+        return self.get_element_text(self.PRODUCT_CATEGORY)

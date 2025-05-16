@@ -129,7 +129,7 @@ explanation, and best practices — check out my blog post:
 COMING SOON
 
 
-## 👤 Author
+## Author
 **Dinesh** –[@dinesh-qadev](https://github.com/dinesh-qadev)
 
 Blog: [https://dineshjoshi.com.np](https://dineshjoshi.com.np)
