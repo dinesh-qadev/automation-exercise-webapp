@@ -1,0 +1,318 @@
+2025-05-16 23:47:44,435 - INFO - Clicked on: ('xpath', "//a[@href='/login']")
+2025-05-16 23:47:44,435 - INFO - Clicked on: ('xpath', "//a[@href='/login']")
+2025-05-16 23:47:44,489 - INFO - Element is visible: ('xpath', "//h2[text()='Login to your account']")
+2025-05-16 23:47:44,489 - INFO - Element is visible: ('xpath', "//h2[text()='Login to your account']")
+2025-05-16 23:47:45,308 - INFO - Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+2025-05-16 23:47:45,308 - INFO - Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+2025-05-16 23:47:45,454 - INFO - Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+2025-05-16 23:47:45,454 - INFO - Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+2025-05-16 23:47:48,470 - INFO - Clicked on: ('xpath', "//button[@data-qa='login-button']")
+2025-05-16 23:47:48,470 - INFO - Clicked on: ('xpath', "//button[@data-qa='login-button']")
+2025-05-16 23:47:48,592 - INFO - Element is visible: ('xpath', "//a[normalize-space(.)='Logged in as Dinesh']")
+2025-05-16 23:47:48,592 - INFO - Element is visible: ('xpath', "//a[normalize-space(.)='Logged in as Dinesh']")
+2025-05-16 23:57:05,051 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-16 23:57:05,051 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-16 23:58:07,376 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-16 23:58:07,376 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-16 23:58:07,418 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-16 23:58:07,418 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-16 23:58:07,435 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-16 23:58:07,435 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-16 23:58:09,295 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="5a0b8cd066bfa6f88b3f715063bb01fd", element="f.E4CD11926BADB778316C7FE980860F7D.d.FD95AFE2A217D4E9F576F95392377D3E.e.42")>
+2025-05-16 23:58:09,295 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="5a0b8cd066bfa6f88b3f715063bb01fd", element="f.E4CD11926BADB778316C7FE980860F7D.d.FD95AFE2A217D4E9F576F95392377D3E.e.42")>
+2025-05-16 23:58:09,349 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-16 23:58:09,349 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:03:06,650 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:03:06,650 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:03:06,698 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:03:06,698 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:03:06,713 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:03:06,713 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:03:08,267 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="ae0f76efc96de3aa27c1b046ce12d0c9", element="f.FA7A61649ACFDBD7D6FC7F1C0039292E.d.5845C14554C4D2109802D7B46382A3AB.e.45")>
+2025-05-17 00:03:08,267 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="ae0f76efc96de3aa27c1b046ce12d0c9", element="f.FA7A61649ACFDBD7D6FC7F1C0039292E.d.5845C14554C4D2109802D7B46382A3AB.e.45")>
+2025-05-17 00:03:08,319 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:03:08,319 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:05:06,250 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:05:06,250 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:05:06,302 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:05:06,302 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:05:06,320 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:05:06,320 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:05:08,427 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="0dfbd37a71c641c99f29623fb3873662", element="f.AD1109103793F239D72B397ED7FE77E5.d.5C9B2C767539BD34FB6C5DC46AA69F71.e.46")>
+2025-05-17 00:05:08,427 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="0dfbd37a71c641c99f29623fb3873662", element="f.AD1109103793F239D72B397ED7FE77E5.d.5C9B2C767539BD34FB6C5DC46AA69F71.e.46")>
+2025-05-17 00:05:08,483 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:05:08,483 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:06:23,134 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:06:23,134 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:06:23,187 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:06:23,187 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:06:23,207 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:06:23,207 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:06:24,722 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="79eaac547c80f23f9dac68d65e1393ee", element="f.A0289F01162D2A5CD59C39A76DE23190.d.3A578809AAACF2415CD37416C4148308.e.47")>
+2025-05-17 00:06:24,722 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="79eaac547c80f23f9dac68d65e1393ee", element="f.A0289F01162D2A5CD59C39A76DE23190.d.3A578809AAACF2415CD37416C4148308.e.47")>
+2025-05-17 00:06:24,768 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:06:24,768 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:07:43,947 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:07:43,947 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:07:43,998 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:07:43,998 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:07:44,021 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:07:44,021 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:07:45,451 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="f8d506329f7c624a3d53136e2e0dc3d6", element="f.AAACAAF723C20602682381528EEF4537.d.4EC86D99415887B5E9AC667CF22275FD.e.46")>
+2025-05-17 00:07:45,451 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="f8d506329f7c624a3d53136e2e0dc3d6", element="f.AAACAAF723C20602682381528EEF4537.d.4EC86D99415887B5E9AC667CF22275FD.e.46")>
+2025-05-17 00:07:45,499 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:07:45,499 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:10:22,892 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:10:22,892 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:10:22,944 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:10:22,944 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:10:22,961 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:10:22,961 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:10:24,786 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b87bba3ab9c6e43860a855b5220eb89e", element="f.B0DCA02DE531F6A5880C3BB16FC5F4ED.d.3EE205826DCCB0334E697E49DFE2EF2A.e.45")>
+2025-05-17 00:10:24,786 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b87bba3ab9c6e43860a855b5220eb89e", element="f.B0DCA02DE531F6A5880C3BB16FC5F4ED.d.3EE205826DCCB0334E697E49DFE2EF2A.e.45")>
+2025-05-17 00:10:24,838 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:10:24,838 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:10:24,854 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:10:24,854 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:10:26,605 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b87bba3ab9c6e43860a855b5220eb89e", element="f.B0DCA02DE531F6A5880C3BB16FC5F4ED.d.9EB64A6F88552059082860548A325EB9.e.88")>
+2025-05-17 00:10:26,605 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b87bba3ab9c6e43860a855b5220eb89e", element="f.B0DCA02DE531F6A5880C3BB16FC5F4ED.d.9EB64A6F88552059082860548A325EB9.e.88")>
+2025-05-17 00:10:36,818 - ERROR - Failed to get text from element: ('xpath', "//div[@class='product-information']/p[contains(text(),'Brand:')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00B1FC83+61635]
+	GetHandleVerifier [0x00B1FCC4+61700]
+	(No symbol) [0x009405D3]
+	(No symbol) [0x0098899E]
+	(No symbol) [0x00988D3B]
+	(No symbol) [0x009D0E12]
+	(No symbol) [0x009AD2E4]
+	(No symbol) [0x009CE61B]
+	(No symbol) [0x009AD096]
+	(No symbol) [0x0097C840]
+	(No symbol) [0x0097D6A4]
+	GetHandleVerifier [0x00DA45A3+2701795]
+	GetHandleVerifier [0x00D9FD26+2683238]
+	GetHandleVerifier [0x00DBAA6E+2793134]
+	GetHandleVerifier [0x00B36945+155013]
+	GetHandleVerifier [0x00B3D02D+181357]
+	GetHandleVerifier [0x00B274D8+92440]
+	GetHandleVerifier [0x00B27680+92864]
+	GetHandleVerifier [0x00B12070+5296]
+	BaseThreadInitThunk [0x7671FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775982AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7759827E+238]
+
+2025-05-17 00:10:36,818 - ERROR - Failed to get text from element: ('xpath', "//div[@class='product-information']/p[contains(text(),'Brand:')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00B1FC83+61635]
+	GetHandleVerifier [0x00B1FCC4+61700]
+	(No symbol) [0x009405D3]
+	(No symbol) [0x0098899E]
+	(No symbol) [0x00988D3B]
+	(No symbol) [0x009D0E12]
+	(No symbol) [0x009AD2E4]
+	(No symbol) [0x009CE61B]
+	(No symbol) [0x009AD096]
+	(No symbol) [0x0097C840]
+	(No symbol) [0x0097D6A4]
+	GetHandleVerifier [0x00DA45A3+2701795]
+	GetHandleVerifier [0x00D9FD26+2683238]
+	GetHandleVerifier [0x00DBAA6E+2793134]
+	GetHandleVerifier [0x00B36945+155013]
+	GetHandleVerifier [0x00B3D02D+181357]
+	GetHandleVerifier [0x00B274D8+92440]
+	GetHandleVerifier [0x00B27680+92864]
+	GetHandleVerifier [0x00B12070+5296]
+	BaseThreadInitThunk [0x7671FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775982AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7759827E+238]
+
+2025-05-17 00:10:36,972 - INFO - Screenshot saved: screenshots/get_text_failure_20250517-001036.png
+2025-05-17 00:10:36,972 - INFO - Screenshot saved: screenshots/get_text_failure_20250517-001036.png
+2025-05-17 00:12:07,726 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:12:07,726 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:12:07,779 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:12:07,779 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:12:07,798 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:12:07,798 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:12:09,391 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="d62ee94af26b3c65349be69002724456", element="f.AE917AF16C366FBCF9573F4288BD6D45.d.33C7E4CE7C107BD8B6F990627E372FAF.e.45")>
+2025-05-17 00:12:09,391 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="d62ee94af26b3c65349be69002724456", element="f.AE917AF16C366FBCF9573F4288BD6D45.d.33C7E4CE7C107BD8B6F990627E372FAF.e.45")>
+2025-05-17 00:12:09,436 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:12:09,436 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:12:09,456 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:12:09,456 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:12:10,340 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="d62ee94af26b3c65349be69002724456", element="f.AE917AF16C366FBCF9573F4288BD6D45.d.9C07A5931280B8C63A62BD0A8920FB45.e.74")>
+2025-05-17 00:12:10,340 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="d62ee94af26b3c65349be69002724456", element="f.AE917AF16C366FBCF9573F4288BD6D45.d.9C07A5931280B8C63A62BD0A8920FB45.e.74")>
+2025-05-17 00:12:20,502 - ERROR - Failed to get text from element: ('xpath', "//div[@class='product-information']/p[contains(text(),'Brand:')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00B1FC83+61635]
+	GetHandleVerifier [0x00B1FCC4+61700]
+	(No symbol) [0x009405D3]
+	(No symbol) [0x0098899E]
+	(No symbol) [0x00988D3B]
+	(No symbol) [0x009D0E12]
+	(No symbol) [0x009AD2E4]
+	(No symbol) [0x009CE61B]
+	(No symbol) [0x009AD096]
+	(No symbol) [0x0097C840]
+	(No symbol) [0x0097D6A4]
+	GetHandleVerifier [0x00DA45A3+2701795]
+	GetHandleVerifier [0x00D9FD26+2683238]
+	GetHandleVerifier [0x00DBAA6E+2793134]
+	GetHandleVerifier [0x00B36945+155013]
+	GetHandleVerifier [0x00B3D02D+181357]
+	GetHandleVerifier [0x00B274D8+92440]
+	GetHandleVerifier [0x00B27680+92864]
+	GetHandleVerifier [0x00B12070+5296]
+	BaseThreadInitThunk [0x7671FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775982AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7759827E+238]
+
+2025-05-17 00:12:20,502 - ERROR - Failed to get text from element: ('xpath', "//div[@class='product-information']/p[contains(text(),'Brand:')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00B1FC83+61635]
+	GetHandleVerifier [0x00B1FCC4+61700]
+	(No symbol) [0x009405D3]
+	(No symbol) [0x0098899E]
+	(No symbol) [0x00988D3B]
+	(No symbol) [0x009D0E12]
+	(No symbol) [0x009AD2E4]
+	(No symbol) [0x009CE61B]
+	(No symbol) [0x009AD096]
+	(No symbol) [0x0097C840]
+	(No symbol) [0x0097D6A4]
+	GetHandleVerifier [0x00DA45A3+2701795]
+	GetHandleVerifier [0x00D9FD26+2683238]
+	GetHandleVerifier [0x00DBAA6E+2793134]
+	GetHandleVerifier [0x00B36945+155013]
+	GetHandleVerifier [0x00B3D02D+181357]
+	GetHandleVerifier [0x00B274D8+92440]
+	GetHandleVerifier [0x00B27680+92864]
+	GetHandleVerifier [0x00B12070+5296]
+	BaseThreadInitThunk [0x7671FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775982AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7759827E+238]
+
+2025-05-17 00:12:20,670 - INFO - Screenshot saved: screenshots/get_text_failure_20250517-001220.png
+2025-05-17 00:12:20,670 - INFO - Screenshot saved: screenshots/get_text_failure_20250517-001220.png
+2025-05-17 00:14:02,395 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:14:02,395 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:14:02,450 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:14:02,450 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:14:02,469 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:14:02,469 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:14:04,134 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="3546fcc59a77a45560a4bef046269d81", element="f.8A693D650936500E3D19800CE3FED35E.d.96FDACFAC6C1CC4DB4BBD58DECB4D815.e.48")>
+2025-05-17 00:14:04,134 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="3546fcc59a77a45560a4bef046269d81", element="f.8A693D650936500E3D19800CE3FED35E.d.96FDACFAC6C1CC4DB4BBD58DECB4D815.e.48")>
+2025-05-17 00:14:04,186 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:14:04,186 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:14:04,206 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:14:04,206 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:14:05,297 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="3546fcc59a77a45560a4bef046269d81", element="f.8A693D650936500E3D19800CE3FED35E.d.44087DE9F3CDF8DD7C0F3260A04E7033.e.76")>
+2025-05-17 00:14:05,297 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="3546fcc59a77a45560a4bef046269d81", element="f.8A693D650936500E3D19800CE3FED35E.d.44087DE9F3CDF8DD7C0F3260A04E7033.e.76")>
+2025-05-17 00:14:15,330 - ERROR - Failed to get text from element: ('xpath', "//div[@class='product-information']/p[contains(text(),'Brand:')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00B1FC83+61635]
+	GetHandleVerifier [0x00B1FCC4+61700]
+	(No symbol) [0x009405D3]
+	(No symbol) [0x0098899E]
+	(No symbol) [0x00988D3B]
+	(No symbol) [0x009D0E12]
+	(No symbol) [0x009AD2E4]
+	(No symbol) [0x009CE61B]
+	(No symbol) [0x009AD096]
+	(No symbol) [0x0097C840]
+	(No symbol) [0x0097D6A4]
+	GetHandleVerifier [0x00DA45A3+2701795]
+	GetHandleVerifier [0x00D9FD26+2683238]
+	GetHandleVerifier [0x00DBAA6E+2793134]
+	GetHandleVerifier [0x00B36945+155013]
+	GetHandleVerifier [0x00B3D02D+181357]
+	GetHandleVerifier [0x00B274D8+92440]
+	GetHandleVerifier [0x00B27680+92864]
+	GetHandleVerifier [0x00B12070+5296]
+	BaseThreadInitThunk [0x7671FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775982AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7759827E+238]
+
+2025-05-17 00:14:15,330 - ERROR - Failed to get text from element: ('xpath', "//div[@class='product-information']/p[contains(text(),'Brand:')]"). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00B1FC83+61635]
+	GetHandleVerifier [0x00B1FCC4+61700]
+	(No symbol) [0x009405D3]
+	(No symbol) [0x0098899E]
+	(No symbol) [0x00988D3B]
+	(No symbol) [0x009D0E12]
+	(No symbol) [0x009AD2E4]
+	(No symbol) [0x009CE61B]
+	(No symbol) [0x009AD096]
+	(No symbol) [0x0097C840]
+	(No symbol) [0x0097D6A4]
+	GetHandleVerifier [0x00DA45A3+2701795]
+	GetHandleVerifier [0x00D9FD26+2683238]
+	GetHandleVerifier [0x00DBAA6E+2793134]
+	GetHandleVerifier [0x00B36945+155013]
+	GetHandleVerifier [0x00B3D02D+181357]
+	GetHandleVerifier [0x00B274D8+92440]
+	GetHandleVerifier [0x00B27680+92864]
+	GetHandleVerifier [0x00B12070+5296]
+	BaseThreadInitThunk [0x7671FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775982AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7759827E+238]
+
+2025-05-17 00:14:15,501 - INFO - Screenshot saved: screenshots/get_text_failure_20250517-001415.png
+2025-05-17 00:14:15,501 - INFO - Screenshot saved: screenshots/get_text_failure_20250517-001415.png
+2025-05-17 00:18:43,164 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:18:43,164 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:18:43,210 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:18:43,210 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:18:43,227 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:18:43,227 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:18:44,326 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.676A893A5D325ECB0195A85369CA6C08.e.46")>
+2025-05-17 00:18:44,326 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.676A893A5D325ECB0195A85369CA6C08.e.46")>
+2025-05-17 00:18:44,368 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:18:44,368 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:18:44,387 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:18:44,387 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:18:45,299 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.636BDB5C7DB7042345C158204D390FFC.e.64")>
+2025-05-17 00:18:45,299 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.636BDB5C7DB7042345C158204D390FFC.e.64")>
+2025-05-17 00:18:45,352 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: PoloPolo shirt'
+2025-05-17 00:18:45,352 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: PoloPolo shirt'
+2025-05-17 00:19:05,451 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:19:05,451 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:19:07,978 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.636BDB5C7DB7042345C158204D390FFC.e.107")>
+2025-05-17 00:19:07,978 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.636BDB5C7DB7042345C158204D390FFC.e.107")>
+2025-05-17 00:19:08,028 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+2025-05-17 00:19:08,028 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+2025-05-17 00:19:08,041 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:19:08,041 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:19:08,907 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.4FBB2C4B30DEB138ABCFA2C015778232.e.124")>
+2025-05-17 00:19:08,907 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="1bd98b24925f079fc44cf812e622bf05", element="f.08DB947C35AEBB22E0FBCD0ED0D1A60E.d.4FBB2C4B30DEB138ABCFA2C015778232.e.124")>
+2025-05-17 00:19:08,945 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
+2025-05-17 00:19:08,945 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
+2025-05-17 00:21:10,251 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:21:10,251 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-17 00:21:10,292 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:21:10,292 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-17 00:21:10,309 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:21:10,309 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:21:11,880 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.C8D2C38A2DCB481D051D128058D6D32C.e.44")>
+2025-05-17 00:21:11,880 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.C8D2C38A2DCB481D051D128058D6D32C.e.44")>
+2025-05-17 00:21:11,923 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:21:11,923 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-17 00:21:11,941 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:21:11,941 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:21:13,408 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.F54CF466926541DBDA96CE83A0902564.e.64")>
+2025-05-17 00:21:13,408 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.F54CF466926541DBDA96CE83A0902564.e.64")>
+2025-05-17 00:21:13,457 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: PoloPolo shirt'
+2025-05-17 00:21:13,457 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: PoloPolo shirt'
+2025-05-17 00:21:53,596 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:21:53,596 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-17 00:21:56,178 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.F54CF466926541DBDA96CE83A0902564.e.106")>
+2025-05-17 00:21:56,178 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.F54CF466926541DBDA96CE83A0902564.e.106")>
+2025-05-17 00:21:56,220 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+2025-05-17 00:21:56,220 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+2025-05-17 00:21:56,233 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:21:56,233 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-17 00:21:57,065 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.D20F315D44CA3877193BCADE51086DFF.e.133")>
+2025-05-17 00:21:57,065 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="b12ea705afdab5c623bfa61018f127ed", element="f.21FF0E3AE92B3439067F125666946212.d.D20F315D44CA3877193BCADE51086DFF.e.133")>
+2025-05-17 00:21:57,100 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
+2025-05-17 00:21:57,100 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'

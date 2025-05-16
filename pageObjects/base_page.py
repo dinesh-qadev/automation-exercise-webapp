@@ -24,13 +24,26 @@ class BasePage:
         self.driver.save_screenshot(filename)
         logger.info(f"Screenshot saved: {filename}")
 
-    def click(self, locator):
+    # def click(self, locator):
+    #     try:
+    #         element = self.wait.until(EC.element_to_be_clickable(locator))
+    #         element.click()
+    #         logger.info(f"Clicked on element: {locator}")
+    #     except (TimeoutException, NoSuchElementException) as e:
+    #         logger.error(f"Failed to click on element: {locator}. Error: {str(e)}")
+    #         self.take_screenshot("click_failure")
+    #         raise
+
+    def click(self, target):
         try:
-            element = self.wait.until(EC.element_to_be_clickable(locator))
+            if isinstance(target, tuple):
+                element = self.wait.until(EC.element_to_be_clickable(target))
+            else:
+                element = self.wait.until(EC.element_to_be_clickable(target))
             element.click()
-            logger.info(f"Clicked on element: {locator}")
+            logger.info(f"Clicked on: {target}")
         except (TimeoutException, NoSuchElementException) as e:
-            logger.error(f"Failed to click on element: {locator}. Error: {str(e)}")
+            logger.error(f"Failed to click on: {target}. Error: {str(e)}")
             self.take_screenshot("click_failure")
             raise
 
@@ -70,8 +83,15 @@ class BasePage:
             raise
 
     def wait_for_element(self, locator):
-        """Wait until an element is visible"""
-        return self.wait.until(EC.visibility_of_element_located(locator))
+
+        try:
+            element = self.wait.until(EC.visibility_of_element_located(locator))
+            logger.info(f"Element is visible: {locator}")
+            return element
+        except (TimeoutException, NoSuchElementException) as e:
+            logger.error(f"Failed to wait for element: {locator}. Error: {str(e)}")
+            self.take_screenshot("wait_for_element_failure")
+            raise
 
     def submit_enter(self, locator):
         try:
@@ -154,4 +174,11 @@ class BasePage:
             return False
 
     def get_elements(self, locator):
-        return self.wait.until(EC.presence_of_all_elements_located(locator))
+        try:
+            elements = self.wait.until(EC.presence_of_all_elements_located(locator))
+            logger.info(f"Retrieved elements for locator: {locator}")
+            return elements
+        except (TimeoutException, NoSuchElementException) as e:
+            logger.error(f"Failed to retrieve elements for locator: {locator}. Error: {str(e)}")
+            self.take_screenshot("get_elements_failure")
+            raise
