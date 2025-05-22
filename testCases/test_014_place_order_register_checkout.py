@@ -1,6 +1,4 @@
-import pytest
-import time
-import random
+import allure
 from pageObjects.home_page import HomePage
 from pageObjects.product_page import ProductsPage
 from pageObjects.cart_page import CartPage
@@ -8,13 +6,15 @@ from pageObjects.signup_login_page import SignupLoginPage
 from pageObjects.account_page import AccountPage
 from pageObjects.checkoutPage import CheckoutPage
 from pageObjects.payment_page import PaymentPage
-
-
 from utilities.data_generator import generate_random_email
 from utilities.data_loader import load_test_data
 from utilities.utils import compare_data
 
 
+@allure.feature("Place Order")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.title("Place Order with Register During Checkout")
+@allure.description("Verify user can register during checkout and place order successfully.")
 def test_place_order_register_checkout(browser):
     home = HomePage(browser)
     product = ProductsPage(browser)
@@ -29,7 +29,7 @@ def test_place_order_register_checkout(browser):
 
     # Step 4–6: Add product and go to cart
 
-    expected_product_name, expected_price = product.hover_and_add_to_cart_and_get_price(product_index=1)
+    expected_product_name, expected_price = product.hover_and_add_to_cart_and_get_price(index=1)
     product. click_view_cart()
     assert cart.is_cart_page_visible(), "Cart page URL is incorrect or not loaded"
 

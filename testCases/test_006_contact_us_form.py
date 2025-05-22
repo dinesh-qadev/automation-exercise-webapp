@@ -4,8 +4,13 @@ import pytest
 from pageObjects.home_page import HomePage
 from pageObjects.contact_page import ContactUsPage
 from utilities.data_loader import load_test_data
+import allure
 
 
+@allure.feature("Contact Us")
+@allure.severity(allure.severity_level.MINOR)
+@allure.title("Submit Contact Us Form")
+@allure.description("Verify user can submit contact form and success message is displayed.")
 def test_006_contact_us_form(browser):
     # Initialize page objects
     home_page = HomePage(browser)

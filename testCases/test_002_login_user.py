@@ -2,8 +2,13 @@ from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from pageObjects.account_page  import AccountPage
 from utilities.data_loader import load_test_data
+import allure
 
 
+@allure.feature("User Authentication")
+@allure.severity(allure.severity_level.BLOCKER)
+@allure.title("Login User with Correct Credentials")
+@allure.description("Verify registered user can login with valid email and password.")
 def test_002_login_user_with_correct_credentials(browser):
     # Initialize page objects
     home_page = HomePage(browser)

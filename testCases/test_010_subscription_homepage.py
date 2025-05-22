@@ -1,8 +1,13 @@
 # tests/test_subscription_home.py
+import allure
 from pageObjects.home_page import HomePage
 from utilities.data_loader import load_test_data
 
 
+@allure.feature("Products")
+@allure.severity(allure.severity_level.MINOR)
+@allure.title("Verify Home Page Subscription")
+@allure.description("Verify user can subscribe via email on the home page footer.")
 def test_subscription_in_home_page(browser):
     home = HomePage(browser)
 

@@ -1,0 +1,6 @@
+[32mINFO    [0m utilities.logger:base_page.py:89 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+[32mINFO    [0m utilities.logger:base_page.py:89 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+[32mINFO    [0m utilities.logger:base_page.py:44 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+[32mINFO    [0m utilities.logger:base_page.py:44 Clicked on: ('xpath', "//u[text()='View Cart']")
+[32mINFO    [0m utilities.logger:base_page.py:44 Clicked on: ('xpath', "//a[@class='cart_quantity_delete']")
+[32mINFO    [0m utilities.logger:base_page.py:169 Element disappeared: ('xpath', "//tr[@id='product-1']")

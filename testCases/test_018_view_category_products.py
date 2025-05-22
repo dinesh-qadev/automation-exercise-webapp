@@ -1,9 +1,14 @@
+import allure
 from pageObjects.home_page import HomePage
 from pageObjects.categoryPage import CategoryPage
 from pageObjects.product_detail_page import ProductDetailPage
 from utilities.data_loader import load_test_data
 
 
+@allure.feature("Products")
+@allure.severity(allure.severity_level.NORMAL)
+@allure.title("View Category Products")
+@allure.description("Verify user can view products by category and sub-category.")
 def test_view_category_products(browser):
     # Load category data from JSON
     categories = load_test_data("categories.json")

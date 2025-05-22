@@ -1,3 +1,4 @@
+import allure
 from pageObjects.home_page import HomePage
 from pageObjects.product_page import ProductsPage
 from pageObjects.cart_page import CartPage
@@ -10,6 +11,10 @@ from utilities.data_loader import load_test_data
 from utilities.utils import compare_data
 
 
+@allure.feature("Place Order")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.title("Place Order with Register Before Checkout")
+@allure.description("Verify user can register before checkout and place order successfully.")
 def test_place_order_register_before_checkout(browser):
     home = HomePage(browser)
     product = ProductsPage(browser)
@@ -64,7 +69,7 @@ def test_place_order_register_before_checkout(browser):
         user_name=address_info["firstname"] + address_info["lastname"]), "'Logged in as username' is not visible"
 
     # Add products to cart
-    expected_product_name, expected_price = product.hover_and_add_to_cart_and_get_price(product_index=1)
+    expected_product_name, expected_price = product.hover_and_add_to_cart_and_get_price(1)
 
     # Click 'Cart' button
     product.click_view_cart()

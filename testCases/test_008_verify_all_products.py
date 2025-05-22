@@ -3,10 +3,15 @@ from pageObjects.home_page import HomePage
 from pageObjects.product_page import ProductsPage
 from pageObjects.product_detail_page import ProductDetailPage
 from utilities.logger import Logger
+import allure
 
 logger = Logger.get_logger()
 
 
+@allure.feature("Products")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.title("Verify Products and Product Details")
+@allure.description("Verify all products are listed and product details page displays correct info.")
 def test_verify_all_products_and_product_detail(browser):
     # Step 1 & 2: Launch browser and navigate to URL
 

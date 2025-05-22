@@ -1,9 +1,14 @@
+import allure
 import pytest
 from pageObjects.home_page import HomePage
 from pageObjects.product_page import ProductsPage
 from utilities.data_loader import load_test_data
 
 
+@allure.feature("Products")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.title("Search Product by Name")
+@allure.description("Verify search functionality returns relevant products.")
 def test_search_product(browser):
     # Step 1 & 2: Launch browser and navigate to URL (handled by fixture)
 

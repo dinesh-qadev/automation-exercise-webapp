@@ -1,9 +1,14 @@
+import allure
 import pytest
 from pageObjects.home_page import HomePage
 from pageObjects.product_detail_page import ProductDetailPage
 from pageObjects.cart_page import CartPage
 
 
+@allure.feature("Cart")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.title("Verify Product Quantity in Cart")
+@allure.description("Verify product quantity updates correctly in the cart page.")
 def test_verify_product_quantity_in_cart(browser):
     home_page = HomePage(browser)
     product_page = ProductDetailPage(browser)

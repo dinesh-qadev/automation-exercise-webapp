@@ -1,8 +1,13 @@
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from utilities.data_loader import load_test_data
+import allure
 
 
+@allure.feature("User Authentication")
+@allure.severity(allure.severity_level.NORMAL)
+@allure.title("Register with Existing Email")
+@allure.description("Verify error is shown when registering with an already registered email.")
 def test_register_user_with_existing_email(browser):
     home = HomePage(browser)
     login_page = SignupLoginPage(browser)

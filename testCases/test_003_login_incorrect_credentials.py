@@ -3,8 +3,13 @@ from selenium.webdriver.common.by import By
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from utilities.data_loader import load_test_data
+import allure
 
 
+@allure.feature("User Authentication")
+@allure.severity(allure.severity_level.NORMAL)
+@allure.title("Login User with Incorrect Credentials")
+@allure.description("Verify error message appears when user logs in with invalid email/password.")
 def test_003_login_user_with_incorrect_credentials(browser):
     # Initialize page objects
     home_page = HomePage(browser)

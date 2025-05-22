@@ -1,5 +1,5 @@
 import time
-import random
+import allure
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from pageObjects.account_page import AccountPage
@@ -7,6 +7,10 @@ from utilities.data_generator import generate_random_email
 from utilities.data_loader import load_test_data
 
 
+@allure.feature("User Authentication")
+@allure.severity(allure.severity_level.BLOCKER)
+@allure.title("Register User")
+@allure.description("Verify new user can register with valid details and account is created.")
 def test_register_user(browser):
     home_page = HomePage(browser)
     signup_login_page = SignupLoginPage(browser)

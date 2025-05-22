@@ -1,8 +1,13 @@
 from pageObjects.home_page import HomePage
 from pageObjects.signup_login_page import SignupLoginPage
 from utilities.data_loader import load_test_data
+import allure
 
 
+@allure.feature("User Authentication")
+@allure.severity(allure.severity_level.NORMAL)
+@allure.title("Logout User Successfully")
+@allure.description("Verify logged in user can logout and is redirected to login page.")
 def test_logout_user(browser):
     home = HomePage(browser)
     login = SignupLoginPage(browser)

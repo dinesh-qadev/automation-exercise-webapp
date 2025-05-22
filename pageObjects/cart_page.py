@@ -28,12 +28,35 @@ class CartPage(BasePage):
     DELETE_PRODUCT_BUTTON = (By.XPATH, "//a[@class='cart_quantity_delete']")
     PRODUCT_IN_CART = (By.XPATH, "//tr[@id='product-1']")
 
+    # Dynamic locator for a product row by name
+    PRODUCT_ROW_BY_NAME = (By.XPATH, "//tr[@id][.//a[contains(text(), '{}')]]")
+
+    # PRODUCT_PRICE = (By.XPATH, "(//td[@class='cart_price']//p)[{}]")
+    # PRODUCT_QUANTITY = (By.XPATH, "(//td[@class='cart_quantity']//button)[{}]")
+    # PRODUCT_TOTAL = (By.XPATH, "(//td[@class='cart_total']//p)[{}]")
+
     def is_cart_page_visible(self):
         return "/view_cart" in self.driver.current_url
 
-    def is_product_in_cart(self, product_index):
-        locator = self.PRODUCT_ROW_1 if product_index == 1 else self.PRODUCT_ROW_2
-        return self.is_visible(locator)
+    # def are_products_in_cart(self, product_index):
+    #     locator = self.PRODUCT_ROW_1 if product_index == 1 else self.PRODUCT_ROW_2
+    #     return self.is_visible(locator)
+
+    def are_products_in_cart(self, product_names: list):
+        """
+                Verifies that all given product names are present in the cart.
+                Returns True if all are found, False if any is missing.
+                """
+        for name in product_names:
+            locator = (
+                self.PRODUCT_ROW_BY_NAME[0],
+                self.PRODUCT_ROW_BY_NAME[1].format(name.strip())
+            )
+            self.wait_for_element(locator)
+            if not self.is_visible(locator):
+                print(f"Product not found in cart: {name}")
+                return False
+        return True
 
     def verify_product_details(self, product_index, expected_price):
         if product_index == 1:

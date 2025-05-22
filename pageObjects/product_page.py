@@ -35,6 +35,21 @@ class ProductsPage(BasePage):
     PRODUCT_NAME_1 = (By.XPATH, "(//div[@class='productinfo text-center'])[1]//p")
     PRODUCT_NAME_2 = (By.XPATH, "(//div[@class='productinfo text-center'])[2]//p")
 
+    # Common base for normal or search results
+    BASE_PRODUCT_XPATH = "//div[@class='features_items']"
+
+    # Use string format placeholders for index
+    # DYNAMIC_PRODUCT_CARD = (By.XPATH, "({}//div[@class='product-image-wrapper'])[{}]")
+    # DYNAMIC_PRODUCT_NAME = (By.XPATH, "({}//div[@class='productinfo text-center']//p)[{}]")
+    # DYNAMIC_PRODUCT_PRICE = (By.XPATH, "({}//div[@class='productinfo text-center']//h2)[{}]")
+    # DYNAMIC_ADD_TO_CART = (By.XPATH, "({}//div[@class='product-overlay']//a[text()='Add to cart'])[{}]")
+    # Locator templates as class variables
+    DYNAMIC_PRODUCT_CARD = (By.XPATH, "({}//div[@class='product-image-wrapper'])[{}]")
+    DYNAMIC_PRODUCT_NAME = (By.XPATH, "({}//div[@class='productinfo text-center']//p)[{}]")
+    DYNAMIC_PRODUCT_PRICE = (By.XPATH, "({}//div[@class='productinfo text-center']//h2)[{}]")
+    DYNAMIC_ADD_TO_CART = (By.XPATH, "({}//div[@class='product-overlay']//a[text()='Add to cart'])[{}]")
+    # Base container
+    BASE_PRODUCT_XPATH = "//div[@class='features_items']"
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -72,29 +87,29 @@ class ProductsPage(BasePage):
         return True  # all items matched
 
     #Actions for Tes_0012
-    def hover_and_add_to_cart_and_get_price(self, product_index):
-        print("hover_and_add_to_cart_and_get_price execution started")
-        if product_index == 1:
-
-            price_element = self.wait_for_element(self.PRICE_1) #self.wait.until(EC.visibility_of_element_located(self.PRICE_1))
-            price = price_element.text.strip()
-            print(price)
-            product_element = self.wait_for_element(self.PRODUCT_NAME_1)
-            product = product_element.text.strip()
-            self.hover(self.PRODUCT_CARD_1)
-            self.click(self.ADD_TO_CART_BUTTON_1)
-            print(f"Product '{product}' with price '{price}' added to cart.")
-        elif product_index == 2:
-            price_element = self.wait_for_element(self.PRICE_2) #self.wait.until(EC.visibility_of_element_located(self.PRICE_2))
-            price = price_element.text.strip()
-            product_element = self.wait_for_element(self.PRODUCT_NAME_2)
-            product = product_element.text.strip()
-            self.hover(self.PRODUCT_CARD_2)
-            self.click(self.ADD_TO_CART_BUTTON_2)
-            print(f"Product '{product}' with price '{price}' added to cart.")
-        else:
-            raise ValueError(f"Unsupported product index: {product_index}")
-        return product, price
+    # def hover_and_add_to_cart_and_get_price(self, product_index):
+    #     print("hover_and_add_to_cart_and_get_price execution started")
+    #     if product_index == 1:
+    #
+    #         price_element = self.wait_for_element(self.PRICE_1)
+    #         price = price_element.text.strip()
+    #         print(price)
+    #         product_element = self.wait_for_element(self.PRODUCT_NAME_1)
+    #         product = product_element.text.strip()
+    #         self.hover(self.PRODUCT_CARD_1)
+    #         self.click(self.ADD_TO_CART_BUTTON_1)
+    #         print(f"Product '{product}' with price '{price}' added to cart.")
+    #     elif product_index == 2:
+    #         price_element = self.wait_for_element(self.PRICE_2)
+    #         price = price_element.text.strip()
+    #         product_element = self.wait_for_element(self.PRODUCT_NAME_2)
+    #         product = product_element.text.strip()
+    #         self.hover(self.PRODUCT_CARD_2)
+    #         self.click(self.ADD_TO_CART_BUTTON_2)
+    #         print(f"Product '{product}' with price '{price}' added to cart.")
+    #     else:
+    #         raise ValueError(f"Unsupported product index: {product_index}")
+    #     return product, price
 
     def click_continue_shopping(self):
         self.click(self.CONTINUE_SHOPPING_BUTTON)
@@ -102,3 +117,25 @@ class ProductsPage(BasePage):
 
     def click_view_cart(self):
         self.click(self.VIEW_CART_BUTTON)
+
+    def hover_and_add_to_cart_and_get_price(self, index):
+        print(f"Adding product {index} to cart")
+
+        base_xpath = self.BASE_PRODUCT_XPATH  # Get base XPath from class variable
+
+        # Format class variable locator strings here
+        product_card = (self.DYNAMIC_PRODUCT_CARD[0], self.DYNAMIC_PRODUCT_CARD[1].format(base_xpath, index))
+        product_name = (self.DYNAMIC_PRODUCT_NAME[0], self.DYNAMIC_PRODUCT_NAME[1].format(base_xpath, index))
+        product_price = (self.DYNAMIC_PRODUCT_PRICE[0], self.DYNAMIC_PRODUCT_PRICE[1].format(base_xpath, index))
+        add_to_cart = (self.DYNAMIC_ADD_TO_CART[0], self.DYNAMIC_ADD_TO_CART[1].format(base_xpath, index))
+
+        # Use BasePage methods
+        name = ' '.join(self.wait_for_element(product_name).text.strip().split())
+        price = self.wait_for_element(product_price).text.strip()
+
+        self.hover(product_card)
+        self.click(add_to_cart)
+
+        print(f"Product '{name}' with price '{price}' added to cart.")
+        return name, price
+

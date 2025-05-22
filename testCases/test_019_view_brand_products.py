@@ -1,8 +1,12 @@
-
+import allure
 from pageObjects.home_page import HomePage
 from pageObjects.brands_page import BrandsPage
 
 
+@allure.feature("Products")
+@allure.severity(allure.severity_level.NORMAL)
+@allure.title("View and Cart Brand Products")
+@allure.description("Verify user can view products by brand and add them to the cart.")
 def test_view_brand_products(browser):
     home = HomePage(browser)
     brands = BrandsPage(browser)

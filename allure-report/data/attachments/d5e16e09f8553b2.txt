@@ -1,0 +1,3 @@
+[32mINFO    [0m utilities.logger:base_page.py:65 Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
+[32mINFO    [0m utilities.logger:base_page.py:55 Entered text 'dinesh@mailinator.com' into element: ('id', 'susbscribe_email')
+[32mINFO    [0m utilities.logger:base_page.py:44 Clicked on: ('id', 'subscribe')
