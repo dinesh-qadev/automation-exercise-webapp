@@ -6,14 +6,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from utilities.logger import Logger   # <<<<< Import your logger
 from selenium.webdriver.common.action_chains import ActionChains
+from configurations.config import BaseConfig
 
 
 logger = Logger.get_logger()   # <<<<< Initialize logger
 
+
 class BasePage:
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 10)
+        self.wait = WebDriverWait(self.driver, BaseConfig.TIMEOUT)
 
         if not os.path.exists("screenshots"):
             os.makedirs("screenshots")
@@ -24,22 +26,21 @@ class BasePage:
         self.driver.save_screenshot(filename)
         logger.info(f"Screenshot saved: {filename}")
 
-    # def click(self, locator):
+    # def click(self, target):
     #     try:
-    #         element = self.wait.until(EC.element_to_be_clickable(locator))
+    #         if isinstance(target, tuple):
+    #             element = self.wait.until(EC.element_to_be_clickable(target))
+    #         else:
+    #             element = self.wait.until(EC.element_to_be_clickable(target))
     #         element.click()
-    #         logger.info(f"Clicked on element: {locator}")
+    #         logger.info(f"Clicked on: {target}")
     #     except (TimeoutException, NoSuchElementException) as e:
-    #         logger.error(f"Failed to click on element: {locator}. Error: {str(e)}")
+    #         logger.error(f"Failed to click on: {target}. Error: {str(e)}")
     #         self.take_screenshot("click_failure")
     #         raise
-
     def click(self, target):
         try:
-            if isinstance(target, tuple):
-                element = self.wait.until(EC.element_to_be_clickable(target))
-            else:
-                element = self.wait.until(EC.element_to_be_clickable(target))
+            element = self.wait.until(EC.element_to_be_clickable(target))
             element.click()
             logger.info(f"Clicked on: {target}")
         except (TimeoutException, NoSuchElementException) as e:

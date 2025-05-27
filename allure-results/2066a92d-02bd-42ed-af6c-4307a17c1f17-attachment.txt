@@ -1,0 +1,8 @@
+[32mINFO    [0m utilities.logger:base_page.py:34 Clicked on: ('xpath', "//a[@href='/contact_us']")
+[32mINFO    [0m utilities.logger:base_page.py:55 Element is visible: ('xpath', "//h2[text()='Get In Touch']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Entered text 'Dinesh Tester' into element: ('xpath', "//input[@name='name']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@name='email']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Entered text 'Issue with product' into element: ('xpath', "//input[@name='subject']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Entered text 'Product arrived damaged. Please advise.' into element: ('xpath', "//textarea[@name='message']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Entered text 'C:\Users\Dell\Downloads\2149192357.jpg' into element: ('xpath', "//input[@name='upload_file']")
+[32mINFO    [0m utilities.logger:base_page.py:34 Clicked on: ('xpath', "//button[@type='submit']")

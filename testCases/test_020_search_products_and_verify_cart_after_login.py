@@ -68,7 +68,7 @@ def test_search_products_and_verify_cart_after_login(browser):
     assert cart.are_products_in_cart(added_products), "Products are not found in cart"  # Verify Product is on cart
     #assert cart.are_products_in_cart(product_2_name), "Second product not found in cart"  # Verify Product-2 is on cart
 
-    assert cart.verify_product_details(1,
+    assert cart.verify_product_details(2,
                                        product_1_price), "Product 1 price/quantity/total is incorrect"  # Verify Product-1 details is correct on cart
     assert cart.verify_product_details(2,
                                        product_2_price), "Product 2 price/quantity/total is incorrect"  # Verify Product-1 details is correct on cart

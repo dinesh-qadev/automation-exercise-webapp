@@ -1,0 +1,21 @@
+[32mINFO    [0m utilities.logger:base_page.py:55 Element is visible: ('css selector', 'div.left-sidebar > h2')
+[32mINFO    [0m utilities.logger:base_page.py:34 Clicked on: ('xpath', "//a[normalize-space()='Women']")
+[32mINFO    [0m utilities.logger:base_page.py:34 Clicked on: ('xpath', "//div[@id='Women']//a[contains(text(),'Tops')]")
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('css selector', '.features_items h2.title.text-center'): 'WOMEN - TOPS PRODUCTS'
+[32mINFO    [0m utilities.logger:base_page.py:169 Retrieved elements for locator: ('xpath', "//a[text()='View Product']")
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+[32mINFO    [0m utilities.logger:base_page.py:34 Clicked on: ('xpath', "//a[normalize-space()='Men']")
+[32mINFO    [0m utilities.logger:base_page.py:34 Clicked on: ('xpath', "//div[@id='Men']//a[contains(text(),'Tshirts')]")
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('css selector', '.features_items h2.title.text-center'): 'MEN - TSHIRTS PRODUCTS'
+[32mINFO    [0m utilities.logger:base_page.py:169 Retrieved elements for locator: ('xpath', "//a[text()='View Product']")
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+[32mINFO    [0m utilities.logger:base_page.py:67 Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
