@@ -1,0 +1,8 @@
+# Core
+selenium== 4.31.0
+pytest== 8.3.5
+webdriver-manager==4.0.2
+
+# Reporting
+allure-pytest==2.14.2
+

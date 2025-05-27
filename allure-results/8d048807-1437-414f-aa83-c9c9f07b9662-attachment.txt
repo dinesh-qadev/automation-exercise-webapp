@@ -1,6 +1,0 @@
-2025-05-23 23:35:30,655 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
-2025-05-23 23:35:30,655 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
-2025-05-23 23:35:30,877 - INFO - Entered text 'dinesh@mailinator.com' into element: ('id', 'susbscribe_email')
-2025-05-23 23:35:30,877 - INFO - Entered text 'dinesh@mailinator.com' into element: ('id', 'susbscribe_email')
-2025-05-23 23:35:31,142 - INFO - Clicked on: ('id', 'subscribe')
-2025-05-23 23:35:31,142 - INFO - Clicked on: ('id', 'subscribe')
