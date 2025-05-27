@@ -1,0 +1,38 @@
+2025-05-28 00:05:21,636 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-28 00:05:21,636 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-28 00:05:21,675 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+2025-05-28 00:05:21,675 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+2025-05-28 00:05:21,725 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+2025-05-28 00:05:21,725 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+2025-05-28 00:05:22,381 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+2025-05-28 00:05:22,381 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+2025-05-28 00:05:23,055 - INFO - Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-28 00:05:23,055 - INFO - Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-28 00:05:23,122 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+2025-05-28 00:05:23,122 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+2025-05-28 00:05:23,185 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+2025-05-28 00:05:23,185 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+2025-05-28 00:05:23,704 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+2025-05-28 00:05:23,704 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+2025-05-28 00:05:25,606 - INFO - Clicked on: ('xpath', "//u[text()='View Cart']")
+2025-05-28 00:05:25,606 - INFO - Clicked on: ('xpath', "//u[text()='View Cart']")
+2025-05-28 00:05:25,640 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Blue Top')]]")
+2025-05-28 00:05:25,640 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Blue Top')]]")
+2025-05-28 00:05:25,670 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Blue Top')]]")
+2025-05-28 00:05:25,670 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Blue Top')]]")
+2025-05-28 00:05:25,696 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-28 00:05:25,696 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-28 00:05:25,724 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-28 00:05:25,724 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-28 00:05:25,757 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 500'
+2025-05-28 00:05:25,757 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 500'
+2025-05-28 00:05:25,969 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-28 00:05:25,969 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-28 00:05:26,008 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 500'
+2025-05-28 00:05:26,008 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 500'
+2025-05-28 00:05:26,042 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 400'
+2025-05-28 00:05:26,042 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 400'
+2025-05-28 00:05:26,073 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+2025-05-28 00:05:26,073 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+2025-05-28 00:05:26,106 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 400'
+2025-05-28 00:05:26,106 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 400'

@@ -1,4 +1,7 @@
 import platform
+import shutil
+import tempfile
+
 import pytest
 import allure
 import json
@@ -8,6 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from configurations.config import StagingConfig, QAConfig, ProdConfig
+from selenium.webdriver.chrome.options import Options
 
 
 def get_config(env):
@@ -36,14 +40,31 @@ def config(request):
 
 @pytest.fixture(scope="function")
 def browser(config):
+
+    options = Options()
+    # Run Chrome headless on CI or if you want
+    options.add_argument("--headless=new")  # newer headless mode
+    options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--no-sandbox")  # required in many CI environments
+    options.add_argument("--disable-dev-shm-usage")  # overcome limited /dev/shm
+    options.add_argument("--disable-extensions")
+    options.add_argument("--remote-allow-origins=*")  # helps with Chrome 111+
+
+    # Use a temp user data dir to avoid "profile in use" errors
+    temp_user_data_dir = tempfile.mkdtemp()
+    options.add_argument(f"--user-data-dir={temp_user_data_dir}")
+
     # Setup Chrome browser
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
     driver.maximize_window()
-    #driver.get("https://www.automationexercise.com/")
+
     driver.get(config.BASE_URL)
     yield driver
     # Teardown
     driver.quit()
+    shutil.rmtree(temp_user_data_dir)
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
