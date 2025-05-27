@@ -56,7 +56,7 @@ def browser(config):
     options.add_argument(f"--user-data-dir={temp_user_data_dir}")
 
     # Setup Chrome browser
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     driver.maximize_window()
 
