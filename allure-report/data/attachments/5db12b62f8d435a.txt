@@ -1,0 +1,28 @@
+2025-05-28 17:44:15,992 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-28 17:44:15,992 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-28 17:44:16,077 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-28 17:44:16,077 - INFO - Element is visible: ('xpath', "//h2[text()='Brands']")
+2025-05-28 17:44:16,087 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-28 17:44:16,087 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-28 17:44:16,856 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.6981AB6FB79A9A451157FF72F2AF4E2B.e.200")>
+2025-05-28 17:44:16,856 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.6981AB6FB79A9A451157FF72F2AF4E2B.e.200")>
+2025-05-28 17:44:17,047 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-28 17:44:17,047 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+2025-05-28 17:44:17,166 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-28 17:44:17,166 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-28 17:44:17,691 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.68DEC1A7CDCA9286DFE65D1C3758E0D2.e.216")>
+2025-05-28 17:44:17,691 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.68DEC1A7CDCA9286DFE65D1C3758E0D2.e.216")>
+2025-05-28 17:44:17,784 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: Polo'
+2025-05-28 17:44:17,784 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: Polo'
+2025-05-28 17:44:18,334 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-28 17:44:18,334 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+2025-05-28 17:44:18,817 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.58DCBA0AA53D65D76A380F504EF50013.e.339")>
+2025-05-28 17:44:18,817 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.58DCBA0AA53D65D76A380F504EF50013.e.339")>
+2025-05-28 17:44:18,836 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+2025-05-28 17:44:18,836 - INFO - Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+2025-05-28 17:44:18,842 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-28 17:44:18,842 - INFO - Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+2025-05-28 17:44:19,372 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.0F03942166230135D8904EF55F730CA1.e.368")>
+2025-05-28 17:44:19,372 - INFO - Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="736543380e46eae14f8f54fb1de1407a", element="f.E7363132695111272427382613C6D992.d.0F03942166230135D8904EF55F730CA1.e.368")>
+2025-05-28 17:44:19,460 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
+2025-05-28 17:44:19,460 - INFO - Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
