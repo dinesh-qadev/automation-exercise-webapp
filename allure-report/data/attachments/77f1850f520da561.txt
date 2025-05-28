@@ -1,0 +1,6 @@
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/login']")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Login to your account']")
+INFO     utilities.logger:base_page.py:56 Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+INFO     utilities.logger:base_page.py:56 Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[@data-qa='login-button']")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//a[normalize-space(.)='Logged in as Dinesh']")
