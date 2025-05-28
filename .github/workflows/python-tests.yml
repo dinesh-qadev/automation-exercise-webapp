@@ -48,6 +48,7 @@ jobs:
 
     #  Copy history into results before running tests
     - name: Copy history to allure-results
+      if: always()
       run: |
         mkdir -p allure-results/history
         cp -r allure-history/* allure-results/history/ || true    
@@ -80,5 +81,6 @@ jobs:
         publish_branch: gh-pages   # Target branch for GitHub Pages
 
     - name: Print Allure Report URL
+      if: always()
       run: |
         echo "Allure Report: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure-report/"
