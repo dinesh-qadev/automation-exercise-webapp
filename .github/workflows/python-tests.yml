@@ -27,6 +27,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Install Allure CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y allure
+
     - name: Run Pytest with Allure (Headless Chrome)
       env:
         CI: true   # Sets an environment variable used in many test setups to indicate CI environment
