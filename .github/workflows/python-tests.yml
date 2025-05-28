@@ -37,16 +37,38 @@ jobs:
         sudo ln -s /opt/allure/bin/allure /usr/bin/allure
         allure --version
 
+    # estore Allure history cache
+    - name: Restore Allure History
+      uses: actions/cache@v3
+      with:
+        path: allure-history
+        key: allure-history-${{ github.run_id }}
+        restore-keys: |
+          allure-history-
+
+    #  Copy history into results before running tests
+    - name: Copy history to allure-results
+      run: |
+        mkdir -p allure-results/history
+        cp -r allure-history/* allure-results/history/ || true    
+
     - name: Run Pytest with Allure (Headless Chrome)
       env:
         CI: true   # Sets an environment variable used in many test setups to indicate CI environment
       run: |
-        pytest --env=production
+        pytest --env=production 
 
     - name: Generate Allure Report
       if: always()  # Ensures this step runs even if previous one failed
       run: |
         allure generate allure-results --clean -o allure-report
+
+    #  Save updated history back to cache
+    - name: Save Allure History
+      if: always()
+      run: |
+        mkdir -p allure-history
+        cp -r allure-report/history/* allure-history/ || true
 
     - name: Deploy Allure Report to GitHub Pages
       if: always()   # Ensures this also runs even if tests failed
@@ -57,3 +79,6 @@ jobs:
         destination_dir: allure-report  # Optional: sub-directory under gh-pages to store report
         publish_branch: gh-pages   # Target branch for GitHub Pages
 
+    - name: Print Allure Report URL
+      run: |
+        echo "Allure Report: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure-report/"
