@@ -5,6 +5,7 @@ from pageObjects.home_page import HomePage
 from pageObjects.contact_page import ContactUsPage
 from utilities.data_loader import load_test_data
 import allure
+from utilities.data_loader import get_resource_file_path
 
 
 @allure.feature("Contact Us")
@@ -37,7 +38,7 @@ def test_006_contact_us_form(browser):
     contact_us_page.fill_contact_form(name, email, subject, message)
 
     # Step 5: Upload file
-    file_path = required_testdata["filepath"]
+    file_path = get_resource_file_path("contact_us_upload_01.jpeg")
     # Provide the correct path to the file
     contact_us_page.upload_file(file_path)
 
@@ -45,4 +46,5 @@ def test_006_contact_us_form(browser):
     contact_us_page.click_submit_button()
 
     # Step 7: Click 'OK' button on success pop-up
-    contact_us_page.click_ok_button
+    contact_us_page.click_ok_button()
+

@@ -9,3 +9,5 @@ def load_test_data(filename):
         return json.load(f)
 
 
+def get_resource_file_path(filename):
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "resources", filename))

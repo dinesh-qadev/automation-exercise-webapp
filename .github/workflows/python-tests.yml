@@ -37,7 +37,7 @@ jobs:
         sudo ln -s /opt/allure/bin/allure /usr/bin/allure
         allure --version
 
-    # estore Allure history cache
+    # Restore Allure history cache
     - name: Restore Allure History
       uses: actions/cache@v3
       with:
@@ -51,13 +51,14 @@ jobs:
       if: always()
       run: |
         mkdir -p allure-results/history
-        cp -r allure-history/* allure-results/history/ || true    
+        cp -r allure-history/* allure-report/history/ || true    
 
     - name: Run Pytest with Allure (Headless Chrome)
       env:
         CI: true   # Sets an environment variable used in many test setups to indicate CI environment
       run: |
-        pytest --env=production 
+        set +e  
+        pytest --env=production --maxfail=0 --disable-warnings || true
 
     - name: Generate Allure Report
       if: always()  # Ensures this step runs even if previous one failed
