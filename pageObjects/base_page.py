@@ -43,7 +43,7 @@ class BasePage:
             element = self.wait.until(EC.element_to_be_clickable(target))
             element.click()
             logger.info(f"Clicked on: {target}")
-        except (TimeoutException, NoSuchElementException) as e:
+        except Exception as e:
             logger.error(f"Failed to click on: {target}. Error: {str(e)}")
             self.take_screenshot("click_failure")
             raise

@@ -38,7 +38,7 @@ def test_006_contact_us_form(browser):
     contact_us_page.fill_contact_form(name, email, subject, message)
 
     # Step 5: Upload file
-    file_path = get_resource_file_path("contact_us_upload_01.jpeg")
+    file_path = get_resource_file_path("contact_us_upload_01.png")
     # Provide the correct path to the file
     contact_us_page.upload_file(file_path)
 
