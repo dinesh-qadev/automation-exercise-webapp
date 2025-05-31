@@ -1,0 +1,56 @@
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/products']")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[normalize-space()='All Products']")
+INFO     utilities.logger:base_page.py:56 Entered text 'Tshirt' into element: ('id', 'search_product')
+INFO     utilities.logger:base_page.py:45 Clicked on: ('id', 'submit_search')
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Searched Products']")
+INFO     utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+INFO     utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+INFO     utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+INFO     utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//u[text()='View Cart']")
+INFO     utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+INFO     utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 400'
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 400'
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 1299'
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 1299'
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/login']")
+INFO     utilities.logger:base_page.py:56 Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+INFO     utilities.logger:base_page.py:56 Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[@data-qa='login-button']")
+ERROR    utilities.logger:base_page.py:47 Failed to click on: ('xpath', "//a[@href='/view_cart']"). Error: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f5e5d9271a <unknown>
+#1 0x55f5e58350a0 <unknown>
+#2 0x55f5e58486eb <unknown>
+#3 0x55f5e58474a2 <unknown>
+#4 0x55f5e583c5f9 <unknown>
+#5 0x55f5e583c725 <unknown>
+#6 0x55f5e583a84f <unknown>
+#7 0x55f5e583e857 <unknown>
+#8 0x55f5e58d32de <unknown>
+#9 0x55f5e58ac3a2 <unknown>
+#10 0x55f5e58d22a0 <unknown>
+#11 0x55f5e58ac173 <unknown>
+#12 0x55f5e5878d4b <unknown>
+#13 0x55f5e58799b1 <unknown>
+#14 0x55f5e5d578cb <unknown>
+#15 0x55f5e5d5b7ca <unknown>
+#16 0x55f5e5d3f622 <unknown>
+#17 0x55f5e5d5c354 <unknown>
+#18 0x55f5e5d2445f <unknown>
+#19 0x55f5e5d804f8 <unknown>
+#20 0x55f5e5d806d6 <unknown>
+#21 0x55f5e5d91586 <unknown>
+#22 0x7fc096e9caa4 <unknown>
+#23 0x7fc096f29c3c <unknown>
+
+INFO     utilities.logger:base_page.py:27 Screenshot saved: screenshots/click_failure_20250531-033150.png

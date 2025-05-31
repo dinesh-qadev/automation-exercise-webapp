@@ -1,0 +1,112 @@
+2025-05-31 03:31:45,411 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-31 03:31:45,411 - INFO - Clicked on: ('xpath', "//a[@href='/products']")
+2025-05-31 03:31:45,481 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='All Products']")
+2025-05-31 03:31:45,481 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='All Products']")
+2025-05-31 03:31:45,567 - INFO - Entered text 'Tshirt' into element: ('id', 'search_product')
+2025-05-31 03:31:45,567 - INFO - Entered text 'Tshirt' into element: ('id', 'search_product')
+2025-05-31 03:31:46,250 - INFO - Clicked on: ('id', 'submit_search')
+2025-05-31 03:31:46,250 - INFO - Clicked on: ('id', 'submit_search')
+2025-05-31 03:31:46,304 - INFO - Element is visible: ('xpath', "//h2[text()='Searched Products']")
+2025-05-31 03:31:46,304 - INFO - Element is visible: ('xpath', "//h2[text()='Searched Products']")
+2025-05-31 03:31:46,362 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+2025-05-31 03:31:46,362 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+2025-05-31 03:31:46,381 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+2025-05-31 03:31:46,381 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+2025-05-31 03:31:46,719 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+2025-05-31 03:31:46,719 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+2025-05-31 03:31:47,291 - INFO - Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-31 03:31:47,291 - INFO - Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+2025-05-31 03:31:47,307 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+2025-05-31 03:31:47,307 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+2025-05-31 03:31:47,327 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+2025-05-31 03:31:47,327 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+2025-05-31 03:31:47,670 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+2025-05-31 03:31:47,670 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+2025-05-31 03:31:48,700 - INFO - Clicked on: ('xpath', "//u[text()='View Cart']")
+2025-05-31 03:31:48,700 - INFO - Clicked on: ('xpath', "//u[text()='View Cart']")
+2025-05-31 03:31:48,747 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-31 03:31:48,747 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-31 03:31:48,763 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-31 03:31:48,763 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+2025-05-31 03:31:48,777 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+2025-05-31 03:31:48,777 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+2025-05-31 03:31:48,790 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+2025-05-31 03:31:48,790 - INFO - Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+2025-05-31 03:31:48,836 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 400'
+2025-05-31 03:31:48,836 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 400'
+2025-05-31 03:31:48,855 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-31 03:31:48,855 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+2025-05-31 03:31:48,872 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 400'
+2025-05-31 03:31:48,872 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 400'
+2025-05-31 03:31:48,894 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 1299'
+2025-05-31 03:31:48,894 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 1299'
+2025-05-31 03:31:48,911 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+2025-05-31 03:31:48,911 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+2025-05-31 03:31:48,931 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 1299'
+2025-05-31 03:31:48,931 - INFO - Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 1299'
+2025-05-31 03:31:49,433 - INFO - Clicked on: ('xpath', "//a[@href='/login']")
+2025-05-31 03:31:49,433 - INFO - Clicked on: ('xpath', "//a[@href='/login']")
+2025-05-31 03:31:49,540 - INFO - Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+2025-05-31 03:31:49,540 - INFO - Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+2025-05-31 03:31:49,618 - INFO - Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+2025-05-31 03:31:49,618 - INFO - Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+2025-05-31 03:31:49,716 - INFO - Clicked on: ('xpath', "//button[@data-qa='login-button']")
+2025-05-31 03:31:49,716 - INFO - Clicked on: ('xpath', "//button[@data-qa='login-button']")
+2025-05-31 03:31:50,798 - ERROR - Failed to click on: ('xpath', "//a[@href='/view_cart']"). Error: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f5e5d9271a <unknown>
+#1 0x55f5e58350a0 <unknown>
+#2 0x55f5e58486eb <unknown>
+#3 0x55f5e58474a2 <unknown>
+#4 0x55f5e583c5f9 <unknown>
+#5 0x55f5e583c725 <unknown>
+#6 0x55f5e583a84f <unknown>
+#7 0x55f5e583e857 <unknown>
+#8 0x55f5e58d32de <unknown>
+#9 0x55f5e58ac3a2 <unknown>
+#10 0x55f5e58d22a0 <unknown>
+#11 0x55f5e58ac173 <unknown>
+#12 0x55f5e5878d4b <unknown>
+#13 0x55f5e58799b1 <unknown>
+#14 0x55f5e5d578cb <unknown>
+#15 0x55f5e5d5b7ca <unknown>
+#16 0x55f5e5d3f622 <unknown>
+#17 0x55f5e5d5c354 <unknown>
+#18 0x55f5e5d2445f <unknown>
+#19 0x55f5e5d804f8 <unknown>
+#20 0x55f5e5d806d6 <unknown>
+#21 0x55f5e5d91586 <unknown>
+#22 0x7fc096e9caa4 <unknown>
+#23 0x7fc096f29c3c <unknown>
+
+2025-05-31 03:31:50,798 - ERROR - Failed to click on: ('xpath', "//a[@href='/view_cart']"). Error: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f5e5d9271a <unknown>
+#1 0x55f5e58350a0 <unknown>
+#2 0x55f5e58486eb <unknown>
+#3 0x55f5e58474a2 <unknown>
+#4 0x55f5e583c5f9 <unknown>
+#5 0x55f5e583c725 <unknown>
+#6 0x55f5e583a84f <unknown>
+#7 0x55f5e583e857 <unknown>
+#8 0x55f5e58d32de <unknown>
+#9 0x55f5e58ac3a2 <unknown>
+#10 0x55f5e58d22a0 <unknown>
+#11 0x55f5e58ac173 <unknown>
+#12 0x55f5e5878d4b <unknown>
+#13 0x55f5e58799b1 <unknown>
+#14 0x55f5e5d578cb <unknown>
+#15 0x55f5e5d5b7ca <unknown>
+#16 0x55f5e5d3f622 <unknown>
+#17 0x55f5e5d5c354 <unknown>
+#18 0x55f5e5d2445f <unknown>
+#19 0x55f5e5d804f8 <unknown>
+#20 0x55f5e5d806d6 <unknown>
+#21 0x55f5e5d91586 <unknown>
+#22 0x7fc096e9caa4 <unknown>
+#23 0x7fc096f29c3c <unknown>
+
+2025-05-31 03:31:51,296 - INFO - Screenshot saved: screenshots/click_failure_20250531-033150.png
+2025-05-31 03:31:51,296 - INFO - Screenshot saved: screenshots/click_failure_20250531-033150.png
