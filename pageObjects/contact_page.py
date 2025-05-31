@@ -10,7 +10,7 @@ class ContactUsPage(BasePage):
     MESSAGE_TEXTAREA = (By.XPATH, "//textarea[@name='message']")
     UPLOAD_FILE_INPUT = (By.XPATH, "//input[@name='upload_file']")
     SUBMIT_BUTTON = (By.XPATH, "//input[@name='submit']")
-    OK_BUTTON = (By.XPATH, "//button[text()='OK']")
+    # OK_BUTTON = (By.XPATH, "//button[text()='OK']")
     SUCCESS_MESSAGE = (By.XPATH, "//div[contains(text(),'Success! Your details have been submitted successfully.')]")
     HOME_BUTTON = (By.XPATH, "//a[@href='/' and contains(text(), 'Home')]")
 

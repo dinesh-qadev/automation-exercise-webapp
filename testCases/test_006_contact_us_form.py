@@ -21,30 +21,36 @@ def test_006_contact_us_form(browser):
     messeges = load_test_data("contact_us.json")
     required_testdata = messeges["contact_form"]
 
-    # Step 1: Verify home page is displayed by checking if 'Home' link is active
+    # Step 3: Verify home page is displayed by checking if 'Home' link is active
     assert home_page.is_home_page_displayed(), "Home page is not visible or 'Home' link is not active"
 
-    # Step 2: Click on 'Contact Us' button
+    # Step 4: Click on 'Contact Us' button
     home_page.click_contact_us()
 
-    # Step 3: Verify 'GET IN TOUCH' header is visible on the Contact Us page
+    # Step 5: Verify 'GET IN TOUCH' header is visible on the Contact Us page
     assert contact_us_page.is_get_in_touch_header_visible(), "'GET IN TOUCH' header is not visible"
 
-    # Step 4: Enter name, email, subject, and message
+    # Step 6: Enter name, email, subject, and message
     name = required_testdata["name"]
     email = required_testdata["email"]
     subject = required_testdata["subject"]
     message = required_testdata["message"]
     contact_us_page.fill_contact_form(name, email, subject, message)
 
-    # Step 5: Upload file
+    # Step 7: Upload file
     file_path = get_resource_file_path("contact_us_upload_01.png")
-    # Provide the correct path to the file
     contact_us_page.upload_file(file_path)
 
-    # Step 6: Click 'Submit' button
+    # Step 8: Click 'Submit' button
     contact_us_page.click_submit_button()
 
-    # Step 7: Click 'OK' button on success pop-up
-    contact_us_page.click_ok_button()
+    # Step 9: Click 'OK' button (Handle JavaScript alert)
+    alert = browser.switch_to.alert
+    alert.accept()
 
+    # Step 10: Verify success message is visible
+    assert contact_us_page.is_success_message_visible(), "Success message is not visible after submitting contact form"
+
+    # Step 11: Click 'Home' button and verify redirected to home page
+    contact_us_page.click_home_button()
+    assert home_page.is_home_page_displayed(), "Did not land back on home page after clicking 'Home'"

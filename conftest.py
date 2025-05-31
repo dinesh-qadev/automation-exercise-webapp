@@ -42,7 +42,7 @@ def config(request):
 def browser(config):
 
     options = Options()
-    # Run Chrome headless on CI or if you want
+    # Run Chrome headless
     options.add_argument("--headless=new")  # newer headless mode
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
@@ -62,6 +62,7 @@ def browser(config):
 
     driver.get(config.BASE_URL)
     yield driver
+
     # Teardown
     driver.quit()
     shutil.rmtree(temp_user_data_dir)

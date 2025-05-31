@@ -1,0 +1,35 @@
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/products']")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[normalize-space()='All Products']")
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text 'Tshirt' into element: ('id', 'search_product')
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('id', 'submit_search')
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Searched Products']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//u[text()='View Cart']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 400'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 400'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 1299'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 1299'
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/login']")
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[@data-qa='login-button']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/view_cart']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 1299'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 1299'

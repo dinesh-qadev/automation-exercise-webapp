@@ -1,0 +1,98 @@
+2025-05-31 08:49:51,691 - INFO - Clicked on: ('xpath', "//a[@href='/login']")
+2025-05-31 08:49:51,691 - INFO - Clicked on: ('xpath', "//a[@href='/login']")
+2025-05-31 08:49:51,821 - INFO - Entered text 'TestUser' into element: ('xpath', "//input[@data-qa='signup-name']")
+2025-05-31 08:49:51,821 - INFO - Entered text 'TestUser' into element: ('xpath', "//input[@data-qa='signup-name']")
+2025-05-31 08:49:52,083 - INFO - Entered text 'user3254@test.com' into element: ('xpath', "//input[@data-qa='signup-email']")
+2025-05-31 08:49:52,083 - INFO - Entered text 'user3254@test.com' into element: ('xpath', "//input[@data-qa='signup-email']")
+2025-05-31 08:49:52,228 - INFO - Clicked on: ('xpath', "//button[@data-qa='signup-button']")
+2025-05-31 08:49:52,228 - INFO - Clicked on: ('xpath', "//button[@data-qa='signup-button']")
+2025-05-31 08:49:53,026 - INFO - Clicked on: ('id', 'id_gender1')
+2025-05-31 08:49:53,026 - INFO - Clicked on: ('id', 'id_gender1')
+2025-05-31 08:49:53,212 - INFO - Entered text 'Test1234' into element: ('id', 'password')
+2025-05-31 08:49:53,212 - INFO - Entered text 'Test1234' into element: ('id', 'password')
+2025-05-31 08:49:53,633 - INFO - Clicked on: ('id', 'newsletter')
+2025-05-31 08:49:53,633 - INFO - Clicked on: ('id', 'newsletter')
+2025-05-31 08:49:53,732 - INFO - Clicked on: ('id', 'optin')
+2025-05-31 08:49:53,732 - INFO - Clicked on: ('id', 'optin')
+2025-05-31 08:49:53,857 - INFO - Entered text 'Test' into element: ('id', 'first_name')
+2025-05-31 08:49:53,857 - INFO - Entered text 'Test' into element: ('id', 'first_name')
+2025-05-31 08:49:53,975 - INFO - Entered text 'User' into element: ('id', 'last_name')
+2025-05-31 08:49:53,975 - INFO - Entered text 'User' into element: ('id', 'last_name')
+2025-05-31 08:49:54,095 - INFO - Entered text 'TestCompany' into element: ('id', 'company')
+2025-05-31 08:49:54,095 - INFO - Entered text 'TestCompany' into element: ('id', 'company')
+2025-05-31 08:49:54,227 - INFO - Entered text '123 Street' into element: ('id', 'address1')
+2025-05-31 08:49:54,227 - INFO - Entered text '123 Street' into element: ('id', 'address1')
+2025-05-31 08:49:54,358 - INFO - Entered text 'Suite 456' into element: ('id', 'address2')
+2025-05-31 08:49:54,358 - INFO - Entered text 'Suite 456' into element: ('id', 'address2')
+2025-05-31 08:49:54,554 - INFO - Entered text 'Ontario' into element: ('id', 'state')
+2025-05-31 08:49:54,554 - INFO - Entered text 'Ontario' into element: ('id', 'state')
+2025-05-31 08:49:54,691 - INFO - Entered text 'Toronto' into element: ('id', 'city')
+2025-05-31 08:49:54,691 - INFO - Entered text 'Toronto' into element: ('id', 'city')
+2025-05-31 08:49:54,810 - INFO - Entered text 'M5V2T6' into element: ('id', 'zipcode')
+2025-05-31 08:49:54,810 - INFO - Entered text 'M5V2T6' into element: ('id', 'zipcode')
+2025-05-31 08:49:54,927 - INFO - Entered text '1234567890' into element: ('id', 'mobile_number')
+2025-05-31 08:49:54,927 - INFO - Entered text '1234567890' into element: ('id', 'mobile_number')
+2025-05-31 08:49:56,459 - INFO - Clicked on: ('xpath', "//button[@data-qa='create-account']")
+2025-05-31 08:49:56,459 - INFO - Clicked on: ('xpath', "//button[@data-qa='create-account']")
+2025-05-31 08:49:56,495 - INFO - Element is visible: ('xpath', "//b[text()='Account Created!']")
+2025-05-31 08:49:56,495 - INFO - Element is visible: ('xpath', "//b[text()='Account Created!']")
+2025-05-31 08:49:59,909 - INFO - Clicked on: ('xpath', "//a[@data-qa='continue-button']")
+2025-05-31 08:49:59,909 - INFO - Clicked on: ('xpath', "//a[@data-qa='continue-button']")
+2025-05-31 08:49:59,966 - INFO - Element is visible: ('xpath', "//a[normalize-space(.)='Logged in as TestUser']")
+2025-05-31 08:49:59,966 - INFO - Element is visible: ('xpath', "//a[normalize-space(.)='Logged in as TestUser']")
+2025-05-31 08:50:00,087 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+2025-05-31 08:50:00,087 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+2025-05-31 08:50:00,149 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+2025-05-31 08:50:00,149 - INFO - Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+2025-05-31 08:50:00,708 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+2025-05-31 08:50:00,708 - INFO - Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+2025-05-31 08:50:02,548 - INFO - Clicked on: ('xpath', "//u[text()='View Cart']")
+2025-05-31 08:50:02,548 - INFO - Clicked on: ('xpath', "//u[text()='View Cart']")
+2025-05-31 08:50:04,118 - INFO - Clicked on: ('xpath', "//a[normalize-space()='Proceed To Checkout']")
+2025-05-31 08:50:04,118 - INFO - Clicked on: ('xpath', "//a[normalize-space()='Proceed To Checkout']")
+2025-05-31 08:50:04,164 - INFO - Element is visible: ('xpath', "//ul[@id='address_delivery']")
+2025-05-31 08:50:04,164 - INFO - Element is visible: ('xpath', "//ul[@id='address_delivery']")
+2025-05-31 08:50:04,199 - INFO - Got text from element ('xpath', "//ul[@id='address_delivery']"): 'YOUR DELIVERY ADDRESS
+Mr. Test User
+TestCompany
+123 Street
+Suite 456
+Toronto Ontario M5V2T6
+Canada
+1234567890'
+2025-05-31 08:50:04,199 - INFO - Got text from element ('xpath', "//ul[@id='address_delivery']"): 'YOUR DELIVERY ADDRESS
+Mr. Test User
+TestCompany
+123 Street
+Suite 456
+Toronto Ontario M5V2T6
+Canada
+1234567890'
+2025-05-31 08:50:04,236 - INFO - Got text from element ('xpath', "(//td[@class='cart_description']/h4/a)[1]"): 'Blue Top'
+2025-05-31 08:50:04,236 - INFO - Got text from element ('xpath', "(//td[@class='cart_description']/h4/a)[1]"): 'Blue Top'
+2025-05-31 08:50:04,305 - INFO - Got text from element ('xpath', "(//td[@class='cart_price']/p)[1]"): 'Rs. 500'
+2025-05-31 08:50:04,305 - INFO - Got text from element ('xpath', "(//td[@class='cart_price']/p)[1]"): 'Rs. 500'
+2025-05-31 08:50:04,340 - INFO - Got text from element ('xpath', "(//td[@class='cart_quantity']/button)[1]"): '1'
+2025-05-31 08:50:04,340 - INFO - Got text from element ('xpath', "(//td[@class='cart_quantity']/button)[1]"): '1'
+2025-05-31 08:50:04,488 - INFO - Entered text 'Please deliver between 9AM and 5PM' into element: ('name', 'message')
+2025-05-31 08:50:04,488 - INFO - Entered text 'Please deliver between 9AM and 5PM' into element: ('name', 'message')
+2025-05-31 08:50:05,453 - INFO - Clicked on: ('xpath', "//a[text()='Place Order']")
+2025-05-31 08:50:05,453 - INFO - Clicked on: ('xpath', "//a[text()='Place Order']")
+2025-05-31 08:50:05,570 - INFO - Entered text 'Test User' into element: ('name', 'name_on_card')
+2025-05-31 08:50:05,570 - INFO - Entered text 'Test User' into element: ('name', 'name_on_card')
+2025-05-31 08:50:05,761 - INFO - Entered text '4242 4242 4242 4242' into element: ('name', 'card_number')
+2025-05-31 08:50:05,761 - INFO - Entered text '4242 4242 4242 4242' into element: ('name', 'card_number')
+2025-05-31 08:50:05,912 - INFO - Entered text '123' into element: ('name', 'cvc')
+2025-05-31 08:50:05,912 - INFO - Entered text '123' into element: ('name', 'cvc')
+2025-05-31 08:50:06,023 - INFO - Entered text '12' into element: ('name', 'expiry_month')
+2025-05-31 08:50:06,023 - INFO - Entered text '12' into element: ('name', 'expiry_month')
+2025-05-31 08:50:06,133 - INFO - Entered text '2025' into element: ('name', 'expiry_year')
+2025-05-31 08:50:06,133 - INFO - Entered text '2025' into element: ('name', 'expiry_year')
+2025-05-31 08:50:08,294 - INFO - Clicked on: ('id', 'submit')
+2025-05-31 08:50:08,294 - INFO - Clicked on: ('id', 'submit')
+2025-05-31 08:50:08,331 - INFO - Got text from element ('xpath', "//p[normalize-space(text())='Congratulations! Your order has been confirmed!']"): 'Congratulations! Your order has been confirmed!'
+2025-05-31 08:50:08,331 - INFO - Got text from element ('xpath', "//p[normalize-space(text())='Congratulations! Your order has been confirmed!']"): 'Congratulations! Your order has been confirmed!'
+2025-05-31 08:50:09,151 - INFO - Clicked on: ('xpath', "//a[@href='/delete_account']")
+2025-05-31 08:50:09,151 - INFO - Clicked on: ('xpath', "//a[@href='/delete_account']")
+2025-05-31 08:50:09,188 - INFO - Element is visible: ('xpath', "//b[text()='Account Deleted!']")
+2025-05-31 08:50:09,188 - INFO - Element is visible: ('xpath', "//b[text()='Account Deleted!']")

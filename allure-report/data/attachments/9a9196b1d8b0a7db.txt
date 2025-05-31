@@ -1,0 +1,14 @@
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/products']")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Brands']")
+[32mINFO    [0m utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="222d71e45da3fe530c69f6ecb6f5140e", element="f.34D2DE3F2F8F4CDB18DD0A8FA3263ED0.d.6C3C9EF13ADD43C9A5EA405ABED9BFA3.e.190")>
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+[32mINFO    [0m utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="222d71e45da3fe530c69f6ecb6f5140e", element="f.34D2DE3F2F8F4CDB18DD0A8FA3263ED0.d.E9A23AC6760AA31F79664299B3F4A0E0.e.221")>
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', '//body//section//p[4]'): 'Brand: Polo'
+[32mINFO    [0m utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="222d71e45da3fe530c69f6ecb6f5140e", element="f.34D2DE3F2F8F4CDB18DD0A8FA3263ED0.d.E9A23AC6760AA31F79664299B3F4A0E0.e.270")>
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+[32mINFO    [0m utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="222d71e45da3fe530c69f6ecb6f5140e", element="f.34D2DE3F2F8F4CDB18DD0A8FA3263ED0.d.FAAF660794631AEACD20CF0C46F9ACB7.e.308")>
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
