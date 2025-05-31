@@ -1,0 +1,4 @@
+2025-05-31 04:20:02,278 - INFO - Clicked on: ('xpath', "//a[@href='/test_cases']")
+2025-05-31 04:20:02,278 - INFO - Clicked on: ('xpath', "//a[@href='/test_cases']")
+2025-05-31 04:20:02,381 - INFO - Element is visible: ('xpath', "//b[normalize-space()='Test Cases']")
+2025-05-31 04:20:02,381 - INFO - Element is visible: ('xpath', "//b[normalize-space()='Test Cases']")
