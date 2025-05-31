@@ -1,2 +1,0 @@
-Adding product 1 to cart
-Product 'Blue Top' with price 'Rs. 500' added to cart.

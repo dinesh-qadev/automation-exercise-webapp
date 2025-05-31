@@ -1,5 +1,0 @@
-True
-Adding product 1 to cart
-Product 'Blue Top' with price 'Rs. 500' added to cart.
-True
-Congratulations! Your order has been confirmed!
