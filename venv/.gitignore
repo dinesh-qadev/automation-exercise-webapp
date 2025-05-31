@@ -7,4 +7,6 @@ logs/
 allure-results/
 allure-report/
 
+# Python virtual environment
+venv/
 

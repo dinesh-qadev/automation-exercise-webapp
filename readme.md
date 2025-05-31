@@ -232,7 +232,7 @@ Below are visuals that demonstrate the execution, reporting, and CI workflow of 
 
 ### Allure Report Dashboard
 
-This dashboard provides a detailed view of test results, including severity levels, categories, steps, and attachments
+This dashboard provides a detailed view of test results, including categories, executors, and attachments
 
 ![Allure Report Dashboard](assets/allure_report_dashboard.png)
 
