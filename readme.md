@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-brightgreen)
 ![Pytest](https://img.shields.io/badge/Pytest-Test_Framework-yellow)
-![GitHub Actions](https://github.com/dinesh-qadev/automation-exercise-webapp/actions/workflows/python-app.yml/badge.svg)
+![GitHub Actions](https://github.com/dinesh-qadev/automation-exercise-webapp/actions/workflows/python-tests.yml/badge.svg)
 ![Allure Report](https://img.shields.io/badge/report-allure-blueviolet)
 ![Headless Execution](https://img.shields.io/badge/headless-enabled-success)
 
@@ -68,16 +68,27 @@ handling, and reporting.
 
 ## Project Structure
 
+```
 automation-exercise-webapp/
-├── configurations/ # Configuration files (e.g., test settings)
-├── data/ # Test data files (e.g., CSV, JSON)
-├── logs/ # Log files generated during test execution
-├── pageObjects/ # Page Object Model classes representing web pages
-├── screenshots/ # Captured screenshots during test runs
-├── testCases/ # Test case scripts using Pytest
-├── utilities/ # Utility modules (e.g., helpers, common functions)
-├── readme.md # Project documentation
-└── test_automation.log # Log file from test execution
+├── .github/              # GitHub workflows
+├── .pytest_cache/        # Pytest cache (auto-generated)
+├── allure-results/       # Allure result files (ignored by Git)
+├── assets/               # Images or other static assets for readme.md (Optional)
+├── configurations/       # Environment-specific configs (e.g. staging, qa)
+├── data/                 # Test data files (CSV, JSON, etc.)
+├── logs/                 # Execution logs
+├── pageObjects/          # Page Object classes (POM design pattern)
+├── resources/            # Additional reusable test files
+├── screenshots/          # Screenshots on test failures (auto-captured)
+├── testCases/            # Test scripts written using Pytest
+├── utilities/            # Helper modules and utilities
+├── venv/                 # Python virtual environment (not tracked in Git)
+├── conftest.py           # Pytest fixtures and hooks
+├── pytest.ini            # Pytest configuration file
+├── requirements.txt      # List of project dependencies
+└── README.md             # Project documentation
+
+```
 
 ---
 
@@ -142,7 +153,7 @@ Make sure Python, pip, and Allure are installed and added to your PATH.
 
 **Run Full Test Suite (Headless Mode)**
 
-`pytest --headed=false --alluredir=reports`
+`pytest --env=production`
 
 OR also can be just run by
 
@@ -150,7 +161,11 @@ OR also can be just run by
 
 **Run Full Test Suite (Non-Headless With GUI)**
 
-`pytest --headed=true --alluredir=reports`
+`pytest --headed --env=production`
+
+OR also can be just run by
+
+`pytest --headed`
 
 **Run a Specific Test Case (Example: test_017)**
 
@@ -158,9 +173,36 @@ OR also can be just run by
 
 **Generate & View Allure Report After Test Run**
 
+**Option 1: Generate and View report from Local**
+
 `allure generate reports --clean -o allure-report`
 
 `allure open allure-report`
+
+**Option 2: View Live on GitHub Pages**
+
+The latest Allure report is automatically generated and published with each test run via GitHub Actions.
+
+**[Click here to view the latest Allure Report](https://dinesh-qadev.github.io/automation-exercise-webapp/allure-report/)**
+
+**Option 3: View Locally from GitHub Actions Artifact**
+
+Step 1: Download the allure-report artifact from the GitHub Actions run.
+
+Step 2: Extract the downloaded `.zip` file.
+
+Step 3: Locate `index.html` file and open it on browser. If the report is broken or not loaded on browser, do the
+following steps.
+
+Step 3.1: Open your terminal and navigate into the extracted folder or go to the extracted folder and open cmd.
+
+Step 3.2: Start a local server using Python:
+
+`python -m http.server 8000`
+
+Step 3.3: Open your browser and go to:
+
+`http://localhost:8000`
 
 **Run Tests in Specific Environments (Dynamic Environment Selection)**
 
@@ -175,7 +217,7 @@ For QA- `--env=qa`
 
 For Production- `--env=production`
 
-**Clean Allure Report Data**
+**Clean Allure Report Data Locally**
 
 `if (Test-Path .\allure-results) { Remove-Item .\allure-results -Recurse -Force }`
 
@@ -185,17 +227,79 @@ For Production- `--env=production`
 
 ---
 ## Screenshots & Reports
-Coming Soon: Sample test report screenshots and test run demos.
+
+Below are visuals that demonstrate the execution, reporting, and CI workflow of this automation framework.
+
+### Allure Report Dashboard
+
+This dashboard provides a detailed view of test results, including severity levels, categories, steps, and attachments
+
+![Allure Report Dashboard](assets/allure_report_dashboard.png)
 
 ---
 
-## Learn More on My Blog
+### Failed Test Case View in Allure
 
-For a complete walkthrough of this Selenium + Python test automation framework — including setup steps, code
-explanation, and best practices — check out my blog post:
+Clearly shows failed steps, exception stack trace, screenshot of failure screen, and logs captured during a failed test run.
 
-COMING SOON
+![Failed Test Case](assets/failed_testcase.png)
 
+---
+
+### Allure Graphs and Trends
+
+Graphs showing test execution trends and flaky test detection over multiple runs.
+
+![Allure Graphs](assets/graphs.png)
+
+---
+
+### Test Timeline
+
+View a timeline of all tests and parallel executions, useful for performance analysis.
+
+![Timeline View](assets/timeline.png)
+
+---
+
+### Passed Test with Logs and Steps
+
+Detailed step-by-step view of a passed test with logs and status for each action.
+
+![Passed Test Details](assets/passed_testdetails_and_logs.png)
+
+---
+
+### GitHub Actions CI Workflow
+
+This project is integrated with GitHub Actions to run tests on every push and pull request.
+
+![GitHub Actions Workflow](assets/gitaction_workflow.png)
+
+---
+
+### CI Test Run Screenshot
+
+Shows the execution of automated tests in CI through GitHub Actions.
+
+![CI Test Run](assets/test_run_through_gitaction.png)
+
+---
+
+### Artifacts Collected During Test Run on Git Action Workflow
+
+Includes logs, screenshots, and environment details captured as test artifacts.
+
+![Artifacts](assets/artifacts.png)
+
+---
+
+## Notes
+
+- All screenshots were captured from real executions of this framework.
+- Artifacts and reports are stored in `allure-results/` and can be viewed with Allure locally.
+
+---
 
 ## Author
 **Dinesh** –[@dinesh-qadev](https://github.com/dinesh-qadev)

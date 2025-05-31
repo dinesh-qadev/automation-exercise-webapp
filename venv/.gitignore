@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+# Logs
+*.log
+logs/
+
+# Allure Reports
+allure-results/
+allure-report/
+
+

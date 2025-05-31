@@ -1,0 +1,58 @@
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/products']")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[normalize-space()='All Products']")
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text 'Tshirt' into element: ('id', 'search_product')
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('id', 'submit_search')
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Searched Products']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[1]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[1]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[1]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[text()='Continue Shopping']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//p)[2]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "(//div[@class='features_items']//div[@class='productinfo text-center']//h2)[2]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//div[@class='features_items']//div[@class='product-overlay']//a[text()='Add to cart'])[2]")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//u[text()='View Cart']")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Men Tshirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:90 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//tr[@id][.//a[contains(text(), 'Pure Cotton V-Neck T-Shirt')]]")
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_price']"): 'Rs. 400'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//button[@class='disabled']"): '1'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[1]//td[@class='cart_total']"): 'Rs. 400'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_price']"): 'Rs. 1299'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//button[@class='disabled']"): '1'
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "(//tr[contains(@id, 'product')])[2]//td[@class='cart_total']"): 'Rs. 1299'
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/login']")
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='login-email']")
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text 'Selenium@123' into element: ('xpath', "//input[@data-qa='login-password']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[@data-qa='login-button']")
+[31m[1mERROR   [0m utilities.logger:base_page.py:47 Failed to click on: ('xpath', "//a[@href='/view_cart']"). Error: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D9FC03+61635]
+	GetHandleVerifier [0x00D9FC44+61700]
+	(No symbol) [0x00BC05D3]
+	(No symbol) [0x00BD2061]
+	(No symbol) [0x00BD1140]
+	(No symbol) [0x00BC7880]
+	(No symbol) [0x00BC795C]
+	(No symbol) [0x00BC5D81]
+	(No symbol) [0x00BC9335]
+	(No symbol) [0x00C4F531]
+	(No symbol) [0x00C2D29C]
+	(No symbol) [0x00C4E61B]
+	(No symbol) [0x00C2D096]
+	(No symbol) [0x00BFC840]
+	(No symbol) [0x00BFD6A4]
+	GetHandleVerifier [0x01024523+2701795]
+	GetHandleVerifier [0x0101FCA6+2683238]
+	GetHandleVerifier [0x0103A9EE+2793134]
+	GetHandleVerifier [0x00DB68C5+155013]
+	GetHandleVerifier [0x00DBCFAD+181357]
+	GetHandleVerifier [0x00DA7458+92440]
+	GetHandleVerifier [0x00DA7600+92864]
+	GetHandleVerifier [0x00D91FF0+5296]
+	BaseThreadInitThunk [0x757BFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x779782AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7797827E+238]
+
+[32mINFO    [0m utilities.logger:base_page.py:27 Screenshot saved: screenshots/click_failure_20250531-224211.png

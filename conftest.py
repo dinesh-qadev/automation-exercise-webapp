@@ -25,6 +25,10 @@ def get_config(env):
 
 def pytest_addoption(parser):
     parser.addoption(
+        "--headed", action="store_true", default=False, help="Run tests in headed mode (non-headless)"
+    )
+
+    parser.addoption(
         "--env",
         action="store",
         default="production",
@@ -39,12 +43,15 @@ def config(request):
 
 
 @pytest.fixture(scope="function")
-def browser(config):
-
+def browser(config, request):
+    # Read the --headed flag
+    headed = request.config.getoption("--headed")
     options = Options()
-    # Run Chrome headless
-    options.add_argument("--headless=new")  # newer headless mode
-    options.add_argument("--disable-gpu")
+
+    if not headed:
+        options.add_argument("--headless=new")
+        options.add_argument("--disable-gpu")
+
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--no-sandbox")  # required in many CI environments
     options.add_argument("--disable-dev-shm-usage")  # overcome limited /dev/shm
