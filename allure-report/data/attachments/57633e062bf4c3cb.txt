@@ -1,0 +1,14 @@
+2025-05-31 17:54:45,530 - INFO - Clicked on: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-31 17:54:45,530 - INFO - Clicked on: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+2025-05-31 17:54:45,560 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-31 17:54:45,560 - INFO - Element is visible: ('xpath', "//div[@class='product-information']")
+2025-05-31 17:54:45,658 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-31 17:54:45,658 - INFO - Cleared the text in element: ('id', 'quantity')
+2025-05-31 17:54:45,719 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-31 17:54:45,719 - INFO - Entered text '4' into element: ('id', 'quantity')
+2025-05-31 17:54:45,790 - INFO - Clicked on: ('xpath', "//button[normalize-space()='Add to cart']")
+2025-05-31 17:54:45,790 - INFO - Clicked on: ('xpath', "//button[normalize-space()='Add to cart']")
+2025-05-31 17:54:46,947 - INFO - Clicked on: ('xpath', "//u[normalize-space()='View Cart']")
+2025-05-31 17:54:46,947 - INFO - Clicked on: ('xpath', "//u[normalize-space()='View Cart']")
+2025-05-31 17:54:47,034 - INFO - Got text from element ('xpath', "//table[@id='cart_info_table']//td[@class='cart_quantity']"): '4'
+2025-05-31 17:54:47,034 - INFO - Got text from element ('xpath', "//table[@id='cart_info_table']//td[@class='cart_quantity']"): '4'
