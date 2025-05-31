@@ -1,8 +1,0 @@
-2025-05-31 03:30:40,097 - INFO - Clicked on: ('xpath', "//a[@href='/view_cart']")
-2025-05-31 03:30:40,097 - INFO - Clicked on: ('xpath', "//a[@href='/view_cart']")
-2025-05-31 03:30:40,208 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
-2025-05-31 03:30:40,208 - INFO - Element is visible: ('xpath', "//h2[normalize-space()='Subscription']")
-2025-05-31 03:30:40,292 - INFO - Entered text 'dinesh@mailinator.com' into element: ('id', 'susbscribe_email')
-2025-05-31 03:30:40,292 - INFO - Entered text 'dinesh@mailinator.com' into element: ('id', 'susbscribe_email')
-2025-05-31 03:30:40,360 - INFO - Clicked on: ('id', 'subscribe')
-2025-05-31 03:30:40,360 - INFO - Clicked on: ('id', 'subscribe')
