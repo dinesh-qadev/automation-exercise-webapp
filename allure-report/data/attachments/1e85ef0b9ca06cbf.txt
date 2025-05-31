@@ -1,0 +1,14 @@
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/products']")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Brands']")
+INFO     utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+INFO     utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="def28d990f45bd9bddce34d96e189efd", element="f.F84170B1F9358F9A38081874B1504558.d.6A5C6A9A2C41DF844B65A05DAE22AB49.e.198")>
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - POLO PRODUCTS'
+INFO     utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+INFO     utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="def28d990f45bd9bddce34d96e189efd", element="f.F84170B1F9358F9A38081874B1504558.d.C71F78356DE22F7B771775BEADF1C058.e.229")>
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', '//body//section//p[4]'): 'Brand: Polo'
+INFO     utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='brands-name']//a")
+INFO     utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="def28d990f45bd9bddce34d96e189efd", element="f.F84170B1F9358F9A38081874B1504558.d.C71F78356DE22F7B771775BEADF1C058.e.278")>
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', "//h2[contains(text(),'Brand -')]"): 'BRAND - H&M PRODUCTS'
+INFO     utilities.logger:base_page.py:180 Retrieved elements for locator: ('xpath', "//div[@class='features_items']//a[@href and text()='View Product']")
+INFO     utilities.logger:base_page.py:45 Clicked on: <selenium.webdriver.remote.webelement.WebElement (session="def28d990f45bd9bddce34d96e189efd", element="f.F84170B1F9358F9A38081874B1504558.d.0CFC631F427940A2DE01374C088D4E2D.e.297")>
+INFO     utilities.logger:base_page.py:78 Got text from element ('xpath', '//body//section//p[4]'): 'Brand: H&M'
