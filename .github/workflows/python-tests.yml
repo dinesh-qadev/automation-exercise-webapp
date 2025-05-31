@@ -54,6 +54,7 @@ jobs:
         cp -r allure-history/* allure-results/history/ || true    
 
     - name: Run Pytest with Allure (Headless Chrome)
+      timeout-minutes: 10
       env:
         CI: true   # Sets an environment variable used in many test setups to indicate CI environment
       run: |
