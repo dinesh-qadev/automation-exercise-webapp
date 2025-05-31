@@ -51,7 +51,7 @@ jobs:
       if: always()
       run: |
         mkdir -p allure-results/history
-        cp -r allure-history/* allure-report/history/ || true    
+        cp -r allure-history/* allure-results/history/ || true    
 
     - name: Run Pytest with Allure (Headless Chrome)
       env:
