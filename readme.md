@@ -4,14 +4,18 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-brightgreen)
 ![Pytest](https://img.shields.io/badge/Pytest-Test_Framework-yellow)
+![GitHub Actions](https://github.com/dinesh-qadev/automation-exercise-webapp/actions/workflows/python-app.yml/badge.svg)
+![Allure Report](https://img.shields.io/badge/report-allure-blueviolet)
+![Headless Execution](https://img.shields.io/badge/headless-enabled-success)
 
 Welcome to my **Selenium Python Automation Framework**! This project is designed to showcase **real-world test
 automation** concepts and practices. It's a learning reference for anyone looking to get started with Selenium, Python,
 and Pytest for UI test automation.
 
 A scalable and easy-to-maintain **Selenium automation framework** built using **Python**, **Pytest**, and the **Page
-Object Model (POM)** design pattern. This project automates end-to-end test cases
-on [AutomationExercise.com](https://www.automationexercise.com/), a demo site for practicing real-world web UI testing.
+Object Model (POM)** design pattern. This project automates real-world e-commerce flows
+on [AutomationExercise.com](https://automationexercise.com) and demonstrates CI/CD, Allure reports, and headless browser
+execution.
 
 ---
 
@@ -39,8 +43,11 @@ handling, and reporting.
 - Add to Cart and Checkout simulation
 - Page Object Model (POM) design pattern for test organization
 - Pytest-based test suite with fixtures
-- Allure reporting integration
+- **Allure reporting** integration for professional test results
+- **Headless browser execution** support
+- **GitHub Actions CI/CD** for automatic test runs
 - Modular, scalable, and easy to extend
+- Dynamic Test environment selection ie, staging, qa, production
 - Automatic screenshot capture on test failures
 - Action-level logging for every interaction with the application under test
 - Learning Resource as reference for beginners 
@@ -50,11 +57,12 @@ handling, and reporting.
 ## Tech Stack
 
 - **Language:** Python 3.8+
-- **Automation:** Selenium WebDriver
+- **Automation Tool:** Selenium WebDriver
 - **Test Framework:** Pytest
 - **Design Pattern:** Page Object Model (POM)
-- **Reports:** Allure, Pytest HTML
-- **CI-ready:** Easily integrable with GitHub Actions or Jenkins
+- **Reports:** Allure
+- **CI/CD:** GitHub Actions
+- **Execution Mode:** Headless (Chrome)
 
 ---
 
@@ -86,7 +94,6 @@ are validated:
 
 - **Functional Testing:** Verifying that each functionality, such as login, search, and checkout, works as expected.
 - **Regression Testing:** Ensuring that recent updates do not break existing functionality.
-- **Cross-Browser Testing:** Ensuring that the application works consistently across different browsers (Chrome and Firefox).
 
 ### Test Coverage
 The test cases cover the following features:
@@ -102,18 +109,79 @@ The test cases cover the following features:
 To get started with this project, follow these steps:
 
 ### 1. Clone the Repository
-Coming Soon
+`git clone https://github.com/dinesh-qadev/automation-exercise-webapp.git`
 
 ### 2. Set Up a Virtual Environment
-Coming Soon
+
+If pycharm is an IDE, It automatically suggests creating a virtual environment when you create a new project. Here is
+how to Set Up a Virtual Environment Manually (General Steps):
+- Open your terminal or command prompt.
+- Navigate to your project folder.
+- Run:
+
+`python -m venv venv`
+
+- Activate the environment:
+
+`.\venv\Scripts\activate`
+  
 
 ### 3. Install Dependencies
-Coming Soon
+
+Before running the tests or the application, you need to install the required Python packages. Install the required
+packages listed in the requirements.txt file using `pip`:
+
+`pip install -r requirements.txt`
+
+This will install all necessary libraries such as Selenium, pytest, and any other dependencies specified.
 
 ---
 
 ## Running Tests
-Coming Soon
+Make sure Python, pip, and Allure are installed and added to your PATH.
+
+**Run Full Test Suite (Headless Mode)**
+
+`pytest --headed=false --alluredir=reports`
+
+OR also can be just run by
+
+`pytest`
+
+**Run Full Test Suite (Non-Headless With GUI)**
+
+`pytest --headed=true --alluredir=reports`
+
+**Run a Specific Test Case (Example: test_017)**
+
+`pytest -s -k test_017_remove_products_from_cart.py`
+
+**Generate & View Allure Report After Test Run**
+
+`allure generate reports --clean -o allure-report`
+
+`allure open allure-report`
+
+**Run Tests in Specific Environments (Dynamic Environment Selection)**
+
+This framework supports dynamic test environment selection via `--env` command-line flag. It uses environment-specific
+base URLs configured in `config.py`. If no any env is selected then production will be taken as default.
+
+`pytest --env=production`
+
+For Staging- `--env=staging`
+
+For QA- `--env=qa`
+
+For Production- `--env=production`
+
+**Clean Allure Report Data**
+
+`if (Test-Path .\allure-results) { Remove-Item .\allure-results -Recurse -Force }`
+
+`if (Test-Path .\allure-report)  { Remove-Item .\allure-report -Recurse -Force }`
+
+`if (Test-Path .\allure-history) { Remove-Item .\allure-history -Recurse -Force }`
 
 ---
 ## Screenshots & Reports
