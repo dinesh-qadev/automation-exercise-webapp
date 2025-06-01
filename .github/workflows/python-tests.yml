@@ -2,8 +2,8 @@ name: Run Selenium Tests and Publish Allure Report
 
 on:
   workflow_dispatch:       # Manual trigger
-  schedule:
-    - cron: "0 2 * * *"   # Daily at 2 AM UTC
+#  schedule:
+#    - cron: "0 2 * * *"   # Daily at 2 AM UTC
 
 jobs:
   test:
