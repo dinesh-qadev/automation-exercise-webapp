@@ -1,1 +1,1 @@
-[{"values":["Chrome 124"],"name":"Browser"},{"values":["Linux 6.11.0-1014-azure"],"name":"OS"},{"values":["3.11.4"],"name":"Python_Version"},{"values":["Production"],"name":"Test_Environment"},{"values":["2.25.0"],"name":"Allure_Version"}]
+[{"values":["Chrome 124"],"name":"Browser"},{"values":["Linux 6.11.0-1015-azure"],"name":"OS"},{"values":["3.11.4"],"name":"Python_Version"},{"values":["Production"],"name":"Test_Environment"},{"values":["2.25.0"],"name":"Allure_Version"}]
