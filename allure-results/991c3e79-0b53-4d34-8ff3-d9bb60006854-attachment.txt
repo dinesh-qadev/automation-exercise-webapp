@@ -1,0 +1,42 @@
+2025-08-31 12:16:34,210 - INFO - Element is visible: ('css selector', 'div.left-sidebar > h2')
+2025-08-31 12:16:34,210 - INFO - Element is visible: ('css selector', 'div.left-sidebar > h2')
+2025-08-31 12:16:34,337 - INFO - Clicked on: ('xpath', "//a[normalize-space()='Women']")
+2025-08-31 12:16:34,337 - INFO - Clicked on: ('xpath', "//a[normalize-space()='Women']")
+2025-08-31 12:16:36,375 - INFO - Clicked on: ('xpath', "//div[@id='Women']//a[contains(text(),'Tops')]")
+2025-08-31 12:16:36,375 - INFO - Clicked on: ('xpath', "//div[@id='Women']//a[contains(text(),'Tops')]")
+2025-08-31 12:16:36,420 - INFO - Got text from element ('css selector', '.features_items h2.title.text-center'): 'WOMEN - TOPS PRODUCTS'
+2025-08-31 12:16:36,420 - INFO - Got text from element ('css selector', '.features_items h2.title.text-center'): 'WOMEN - TOPS PRODUCTS'
+2025-08-31 12:16:36,436 - INFO - Retrieved elements for locator: ('xpath', "//a[text()='View Product']")
+2025-08-31 12:16:36,436 - INFO - Retrieved elements for locator: ('xpath', "//a[text()='View Product']")
+2025-08-31 12:16:37,180 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:37,180 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:37,928 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:37,928 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:39,241 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:39,241 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:40,432 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:40,432 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:41,092 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:41,092 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:41,809 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:41,809 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Women > Tops'
+2025-08-31 12:16:41,926 - INFO - Clicked on: ('xpath', "//a[normalize-space()='Men']")
+2025-08-31 12:16:41,926 - INFO - Clicked on: ('xpath', "//a[normalize-space()='Men']")
+2025-08-31 12:16:43,813 - INFO - Clicked on: ('xpath', "//div[@id='Men']//a[contains(text(),'Tshirts')]")
+2025-08-31 12:16:43,813 - INFO - Clicked on: ('xpath', "//div[@id='Men']//a[contains(text(),'Tshirts')]")
+2025-08-31 12:16:43,849 - INFO - Got text from element ('css selector', '.features_items h2.title.text-center'): 'MEN - TSHIRTS PRODUCTS'
+2025-08-31 12:16:43,849 - INFO - Got text from element ('css selector', '.features_items h2.title.text-center'): 'MEN - TSHIRTS PRODUCTS'
+2025-08-31 12:16:43,863 - INFO - Retrieved elements for locator: ('xpath', "//a[text()='View Product']")
+2025-08-31 12:16:43,863 - INFO - Retrieved elements for locator: ('xpath', "//a[text()='View Product']")
+2025-08-31 12:16:44,594 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:44,594 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:45,258 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:45,258 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:46,430 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:46,430 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:47,699 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:47,699 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:48,957 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:48,957 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:50,454 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'
+2025-08-31 12:16:50,454 - INFO - Got text from element ('xpath', "//div[@class='product-information']//p[contains(text(), 'Category')]"): 'Category: Men > Tshirts'

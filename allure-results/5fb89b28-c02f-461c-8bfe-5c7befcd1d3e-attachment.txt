@@ -1,0 +1,7 @@
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "(//a[contains(text(),'View Product')])[1]")
+[32mINFO    [0m utilities.logger:base_page.py:66 Element is visible: ('xpath', "//div[@class='product-information']")
+[32mINFO    [0m utilities.logger:base_page.py:160 Cleared the text in element: ('id', 'quantity')
+[32mINFO    [0m utilities.logger:base_page.py:56 Entered text '4' into element: ('id', 'quantity')
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[normalize-space()='Add to cart']")
+[32mINFO    [0m utilities.logger:base_page.py:45 Clicked on: ('xpath', "//u[normalize-space()='View Cart']")
+[32mINFO    [0m utilities.logger:base_page.py:78 Got text from element ('xpath', "//table[@id='cart_info_table']//td[@class='cart_quantity']"): '4'
