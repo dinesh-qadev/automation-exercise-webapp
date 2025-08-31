@@ -1,0 +1,2 @@
+INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/test_cases']")
+INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//b[normalize-space()='Test Cases']")
