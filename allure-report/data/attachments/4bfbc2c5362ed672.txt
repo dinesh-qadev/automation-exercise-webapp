@@ -1,6 +1,0 @@
-INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/login']")
-INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='New User Signup!']")
-INFO     utilities.logger:base_page.py:56 Entered text 'Dinesh' into element: ('xpath', "//input[@data-qa='signup-name']")
-INFO     utilities.logger:base_page.py:56 Entered text 'dinesh@mailinator.com' into element: ('xpath', "//input[@data-qa='signup-email']")
-INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//button[@data-qa='signup-button']")
-INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//p[text()='Email Address already exist!']")

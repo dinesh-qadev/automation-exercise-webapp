@@ -1,5 +1,0 @@
-INFO     utilities.logger:base_page.py:45 Clicked on: ('xpath', "//a[@href='/products']")
-INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[normalize-space()='All Products']")
-INFO     utilities.logger:base_page.py:56 Entered text 'Tshirt' into element: ('id', 'search_product')
-INFO     utilities.logger:base_page.py:45 Clicked on: ('id', 'submit_search')
-INFO     utilities.logger:base_page.py:66 Element is visible: ('xpath', "//h2[text()='Searched Products']")
