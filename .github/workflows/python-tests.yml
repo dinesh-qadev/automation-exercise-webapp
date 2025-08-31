@@ -30,11 +30,11 @@ jobs:
     - name: Install Allure CLI
       run: |
         sudo apt-get update
-        sudo apt-get install -y openjdk-11-jdk wget unzip
-        wget https://github.com/allure-framework/allure2/releases/latest/download/allure-2.34.0.tgz -O allure.tgz
+        sudo apt-get install -y openjdk-11-jdk wget unzip jq
+        VERSION=$(curl -s https://api.github.com/repos/allure-framework/allure2/releases/latest | jq -r .tag_name)
+        wget https://github.com/allure-framework/allure2/releases/download/$VERSION/allure-$VERSION.tgz -O allure.tgz
         tar -zxvf allure.tgz
-        EXTRACTED_DIR=$(tar -tzf allure.tgz | head -1 | cut -f1 -d"/")
-        sudo mv "$EXTRACTED_DIR" /opt/allure
+        sudo mv allure-$VERSION /opt/allure
         sudo ln -s /opt/allure/bin/allure /usr/bin/allure
         allure --version
 
