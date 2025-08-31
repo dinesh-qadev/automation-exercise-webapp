@@ -33,9 +33,19 @@ jobs:
         sudo apt-get install -y openjdk-11-jdk wget unzip
         wget https://github.com/allure-framework/allure2/releases/latest/download/allure-2.34.0.tgz -O allure.tgz
         tar -zxvf allure.tgz
-        sudo mv allure-2.34.0 /opt/allure
+        EXTRACTED_DIR=$(tar -tzf allure.tgz | head -1 | cut -f1 -d"/")
+        sudo mv "$EXTRACTED_DIR" /opt/allure
         sudo ln -s /opt/allure/bin/allure /usr/bin/allure
         allure --version
+
+      #sudo apt-get update
+      # sudo apt-get install -y openjdk-11-jdk wget unzip
+      # wget https://github.com/allure-framework/allure2/releases/latest/download/allure-2.34.0.tgz -O allure.tgz
+      # tar -zxvf allure.tgz
+      # sudo mv allure-2.34.0 /opt/allure
+      # sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+      # allure --version
+        
 
     # Restore Allure history cache
     - name: Restore Allure History
